@@ -40,6 +40,8 @@ public class BackpackManager : MonoBehaviour
 
     private void Start()
     {
+        backpackSize = GenerationValuesManager.Instance.backpackSize;
+        seconds = GenerationValuesManager.Instance.duration;
         resetBackpack(backpackSize);
         StartCoroutine("TimeCoroutine");
         UpdateTimeText();
@@ -75,6 +77,7 @@ public class BackpackManager : MonoBehaviour
 
         if(mushroomNr >= mushroomsTaken.Length)
         {
+            InventoryManager.Instance.SellMushrooms(mushroomsTaken, mushroomNr);
             SceneManager.LoadScene("StartScene");
         }
     }
@@ -94,6 +97,7 @@ public class BackpackManager : MonoBehaviour
         }
 
         //Time is up
+        InventoryManager.Instance.SellMushrooms(mushroomsTaken, mushroomNr);
         SceneManager.LoadScene("StartScene");
     }
 }

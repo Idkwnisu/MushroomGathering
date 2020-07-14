@@ -31,6 +31,10 @@ public class GenerationValuesManager : MonoBehaviour
     public bool night = false;
 
 
+    public int backpackSize = 5;
+    public int duration = 120;
+
+
     private static GenerationValuesManager _instance;
 
     public static GenerationValuesManager Instance { get { return _instance; } }

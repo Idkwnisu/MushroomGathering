@@ -21,4 +21,10 @@ public class ScenesStarter : MonoBehaviour
     {
         SceneManager.LoadScene("MushroomScene");
     }
+
+    public void StartWithTime(bool night)
+    {
+        GenerationValuesManager.Instance.night = night;
+        StartMushroomScene();
+    }
 }

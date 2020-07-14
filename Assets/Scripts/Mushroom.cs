@@ -6,7 +6,7 @@ public class Mushroom : ScriptableObject
     public string mushroomName;
 
     public int id;
-    public float value;
+    public int value;
 
     public Sprite sprite;
 }
