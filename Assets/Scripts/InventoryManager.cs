@@ -48,4 +48,9 @@ public class InventoryManager : MonoBehaviour
     {
         return money;
     }
+
+    public void spend(int moneySpent)
+    {
+        money -= moneySpent;
+    }
 }

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69071c8ee345254fa1ee7ceab049c72, type: 3}
+  m_Name: Mush2
+  m_EditorClassIdentifier: 
+  upgradeName: Buy silver pass(new mushrooms)
+  cost: 8000
+  mushrooms:
+  - {fileID: 5968712460293203804, guid: da6aad81670cc144bb8bc01f41778f82, type: 3}
+  - {fileID: 5968712460293203804, guid: 268e631519be67a46ba897ef01284993, type: 3}
+  - {fileID: 5968712460293203804, guid: 2d9988db31602b8459adb3403c50ea09, type: 3}
+  - {fileID: 5968712460293203804, guid: 99b962dc123ea8d48833fff0e8223778, type: 3}
+  - {fileID: 5968712460293203804, guid: 4b173683da7b1e04aae8ecc13e7612ea, type: 3}
+  - {fileID: 5968712460293203804, guid: 35add4d5ebe06c247be06fd11e002277, type: 3}
+  - {fileID: 5968712460293203804, guid: fdd7570f103282a41aa0e0dbc5c549cf, type: 3}
+  - {fileID: 5968712460293203804, guid: 8e743a1aa3cb66d4cb19757af02906d6, type: 3}
+  - {fileID: 5968712460293203804, guid: 3d6504069251d58438d25c5d9d95e46e, type: 3}
+  - {fileID: 5968712460293203804, guid: 899a3630c97eafa4a877195afc42d076, type: 3}
+  - {fileID: 5968712460293203804, guid: d16574d2ec815ef49aabd63bbbf07ae1, type: 3}
+  - {fileID: 5968712460293203804, guid: 7a3652a362ac47e46859c6584812889d, type: 3}
+  - {fileID: 5968712460293203804, guid: 2c9854dbf5969df4e9d67782795ee60f, type: 3}
+  - {fileID: 5968712460293203804, guid: bec517bd95dc63142980a23c6dbc9ca4, type: 3}
+  - {fileID: 5968712460293203804, guid: 22745b861833a814da45214537c0750e, type: 3}
+  - {fileID: 5968712460293203804, guid: a7ea074c1c4303f41989b32af35ebe1d, type: 3}
+  - {fileID: 5968712460293203804, guid: 3b92ce0a7660cb74a8be84e8c59c53b0, type: 3}
+  - {fileID: 5968712460293203804, guid: 1f2e4249b4beefc4b8323d626f70f716, type: 3}
+  sizeAugment: 30
+  stepsAugment: 400
