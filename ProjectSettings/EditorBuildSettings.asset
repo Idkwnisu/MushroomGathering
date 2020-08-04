@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartSceneBackup.unity
+    guid: 084d971bd8204a543b21c20ed2a05fd3
+  - enabled: 1
     path: Assets/Scenes/MushroomScene.unity
     guid: 8500d0458a001774cb232bf2c96546ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartScene.unity
     guid: 829ea715072a36d4b8138f4b2ef42708
   m_configObjects: {}
