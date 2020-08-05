@@ -235,7 +235,7 @@ MonoBehaviour:
   fourteenTile: {fileID: 11400000, guid: 9a3ae2b2d1f52834eaa68e16825ad81c, type: 2}
   twelveTile: {fileID: 11400000, guid: ceb1c983776e13448a1fc85ab1181b26, type: 2}
   sevenTile: {fileID: 11400000, guid: e148d15384676164090a6710c6593cb1, type: 2}
-  fifteenTile: {fileID: 11400000, guid: 475277035e80ea04786aa4b867b8d159, type: 2}
+  fifteenTile: {fileID: 11400000, guid: 3c7f979ccceed60418a12d1e336c6d31, type: 2}
   thirteenTile: {fileID: 11400000, guid: 3995dcfd0437afe4dbaa217b2968e2b7, type: 2}
   threeTile: {fileID: 11400000, guid: 2364f0eb9bc98f24da9635ddce0ebfc9, type: 2}
   elevenTile: {fileID: 11400000, guid: c7935428f3dfea94b901a58270b894f4, type: 2}
@@ -251,7 +251,7 @@ MonoBehaviour:
   topRight: {fileID: 11400000, guid: c7714be947326b64ebfbb390c5843109, type: 2}
   bottomLeft: {fileID: 11400000, guid: 9851dc78a03817c439e72af84dcffdc3, type: 2}
   bottomRight: {fileID: 11400000, guid: 440368d21c46c484ea15d0153f3f0daa, type: 2}
-  wallTile: {fileID: 11400000, guid: ba5a15aa0ece10d498f851d331315478, type: 2}
+  wallTile: {fileID: 11400000, guid: 564389dd8e3c51345851ae3a3dc2c247, type: 2}
   decorations:
   - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}
   - {fileID: 11400000, guid: fb6b568752049e347a72f8b651ce3bc7, type: 2}
