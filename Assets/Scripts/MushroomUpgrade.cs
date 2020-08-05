@@ -7,7 +7,4 @@ public class MushroomUpgrade : ScriptableObject
 
     public int cost;
     public GameObject[] mushrooms;
-
-    public int sizeAugment;
-    public int stepsAugment;
 }

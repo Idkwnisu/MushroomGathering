@@ -23,8 +23,10 @@ public class GenerationValuesManager : MonoBehaviour
 
     public float mushroomLikeness = 0.3f;
 
-    public GameObject[] mushrooms;
+    public List<MushroomUpgrade> areasAvailable;
+    public MushroomUpgrade startingArea;
 
+    public int currentAreaActive = 0;
     public float startPercentage = 0.05f;
     public float percentageIncrement = 0.01f;
 
@@ -56,7 +58,8 @@ public class GenerationValuesManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        areasAvailable = new List<MushroomUpgrade>();
+        areasAvailable.Add(startingArea);
     }
 
     // Update is called once per frame

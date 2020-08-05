@@ -117,7 +117,7 @@ public class TileCreatorAdvanced : MonoBehaviour
 
         mushroomLikeness = GenerationValuesManager.Instance.mushroomLikeness;
 
-        mushrooms = GenerationValuesManager.Instance.mushrooms;
+        mushrooms = GenerationValuesManager.Instance.areasAvailable[GenerationValuesManager.Instance.currentAreaActive].mushrooms;
 
 
         startPercentage = GenerationValuesManager.Instance.startPercentage;

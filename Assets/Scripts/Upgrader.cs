@@ -40,10 +40,8 @@ public class Upgrader : MonoBehaviour
         if(InventoryManager.Instance.getMoney() > mushroomUpgrades[currentOwnedMushroom].cost)
         {
             InventoryManager.Instance.spend(mushroomUpgrades[currentOwnedMushroom].cost);
-            
-            GenerationValuesManager.Instance.mushrooms = mushroomUpgrades[currentOwnedMushroom].mushrooms;
-            GenerationValuesManager.Instance.size += mushroomUpgrades[currentOwnedMushroom].sizeAugment;
-            GenerationValuesManager.Instance.nrSteps += mushroomUpgrades[currentOwnedMushroom].stepsAugment;
+
+            GenerationValuesManager.Instance.areasAvailable.Add(mushroomUpgrades[currentOwnedMushroom]);
 
             currentOwnedMushroom++;
             if (currentOwnedMushroom >= mushroomUpgrades.Length)

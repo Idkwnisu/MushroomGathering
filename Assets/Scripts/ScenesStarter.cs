@@ -25,6 +25,13 @@ public class ScenesStarter : MonoBehaviour
     public void StartWithTime(bool night)
     {
         GenerationValuesManager.Instance.night = night;
+        GenerationValuesManager.Instance.currentAreaActive = 0; //temp
+        StartMushroomScene();
+    }
+
+    public void StartWithArea(int area)
+    {
+        GenerationValuesManager.Instance.currentAreaActive = area;
         StartMushroomScene();
     }
 }

@@ -5,6 +5,9 @@ using UnityEngine;
 public class GoToScene : MonoBehaviour
 {
     public ScenesStarter scenesStarter;
+
+    public AreaSelectionHandler areaHandler;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +24,17 @@ public class GoToScene : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            scenesStarter.StartWithTime(false);
+            areaHandler.gameObject.SetActive(true);
+            areaHandler.CheckButtons();
         }
 
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if(col.CompareTag("Player"))
+        {
+            areaHandler.gameObject.SetActive(false);
+        }
     }
 }
