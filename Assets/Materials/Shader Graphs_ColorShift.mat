@@ -36,12 +36,12 @@ Material:
     - Vector1_1C79F376: 0.14
     - Vector1_1E2CE4D5: 0
     - Vector1_42C5CAB: 0.17
-    - Vector1_73B35098: -0.55
+    - Vector1_73B35098: 0
     - Vector1_76857CF9: 0.99
-    - Vector1_7A78B78: 0.05
+    - Vector1_7A78B78: 0
     - Vector1_B8F47EAD: 0
-    - Vector1_CCF02DE8: -0.64
-    - Vector1_E87BC3D2: 0.33
+    - Vector1_CCF02DE8: 0
+    - Vector1_E87BC3D2: 0
     - Vector1_ECDD3BD7: -4.36
     - Vector1_FF36069C: 0
     m_Colors:

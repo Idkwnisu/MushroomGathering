@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartSceneBackup.unity
+    path: Assets/Scenes/StartScene.unity
     guid: 084d971bd8204a543b21c20ed2a05fd3
   - enabled: 1
     path: Assets/Scenes/MushroomScene.unity

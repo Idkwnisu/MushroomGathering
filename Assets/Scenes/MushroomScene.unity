@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -247,6 +247,10 @@ MonoBehaviour:
   fourTile: {fileID: 11400000, guid: 5e71f2688a323c647bf53b84deff3665, type: 2}
   eightTile: {fileID: 11400000, guid: 01aa82a537a4a364bb120fd6c88537b2, type: 2}
   groundTile: {fileID: 11400000, guid: 00e07123fa89211418068348e8470900, type: 2}
+  topLeft: {fileID: 11400000, guid: 6a610c6db4cd6e34994a2322320ae13b, type: 2}
+  topRight: {fileID: 11400000, guid: c7714be947326b64ebfbb390c5843109, type: 2}
+  bottomLeft: {fileID: 11400000, guid: 9851dc78a03817c439e72af84dcffdc3, type: 2}
+  bottomRight: {fileID: 11400000, guid: 440368d21c46c484ea15d0153f3f0daa, type: 2}
   wallTile: {fileID: 11400000, guid: ba5a15aa0ece10d498f851d331315478, type: 2}
   decorations:
   - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}

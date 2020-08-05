@@ -26,6 +26,11 @@ public class TileCreatorAdvanced : MonoBehaviour
     public Tile eightTile;
     public Tile groundTile;
 
+    public Tile topLeft;
+    public Tile topRight;
+    public Tile bottomLeft;
+    public Tile bottomRight;
+
     public Tile wallTile;
 
     public Tile[] decorations;
@@ -226,7 +231,7 @@ public class TileCreatorAdvanced : MonoBehaviour
             {
                 if (content[x, y] == 1)
                 {
-                    
+
                     if (x > 0 && y > 0 && x < size - 1 && y < size - 1)
                     {
                         int one = content[x, y + 1];
@@ -283,16 +288,36 @@ public class TileCreatorAdvanced : MonoBehaviour
                                 tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fifteenTile);
                                 break;
                         }
+                        if (result == 15)//empty
+                        {
+                            if (content[x - 1, y - 1] == 0)
+                            {
+                                tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), topLeft);
+                            }
+                            else if (content[x - 1, y + 1] == 0)
+                            {
+                                tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), bottomLeft);
+                            }
+                            else if (content[x + 1, y - 1] == 0)
+                            {
+                                tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), topRight);
+                            }
+                            else if (content[x + 1, y + 1] == 0)
+                            {
+                                tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), bottomRight);
+                            }
+                        }
+
                     }
                     else
                     {
                         tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fifteenTile);
                     }
 
-                    if(!night) //animals
+                    if (!night) //animals
                     {
-                        if(Random.Range(0.0f, 1.0f) < dayAnimalLikeness)
-                        { 
+                        if (Random.Range(0.0f, 1.0f) < dayAnimalLikeness)
+                        {
                             int nrAnimal = Random.Range(0, dayAnimals.Length);
                             GameObject animal = Instantiate(dayAnimals[nrAnimal], tilemap.CellToWorld(new Vector3Int(x - size / 2, y - size / 2, 0)), Quaternion.identity);
                         }
@@ -312,11 +337,12 @@ public class TileCreatorAdvanced : MonoBehaviour
                         playerPositioned = true;
                     }
                 }
-                else if(content[x, y] == 2)
+                else if (content[x, y] == 2)
                     tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), wallTile);
                 else
+                {
                     tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), groundTile);
-
+                }
 
                 //Trees
                 if(treeContent[x, y] == 1)
