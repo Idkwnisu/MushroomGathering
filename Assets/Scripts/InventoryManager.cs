@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
 
     private int money = 0;
+
+    public Text moneyText;
 
     private static InventoryManager _instance;
 
@@ -27,7 +30,7 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        moneyText.text = money + "G";
     }
 
     // Update is called once per frame
@@ -42,6 +45,8 @@ public class InventoryManager : MonoBehaviour
         {
             money += mushroomsBought[i].value;
         }
+
+        moneyText.text = money + "G";
     }
 
     public int getMoney()
@@ -52,5 +57,6 @@ public class InventoryManager : MonoBehaviour
     public void spend(int moneySpent)
     {
         money -= moneySpent;
+        moneyText.text = money + "G";
     }
 }

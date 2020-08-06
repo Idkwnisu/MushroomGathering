@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mush3
   m_EditorClassIdentifier: 
   upgradeName: Buy gold pass(new mushrooms)
-  cost: 20000
+  cost: 1
   mushrooms:
   - {fileID: 5968712460293203804, guid: c2512085b6ddd2549998b4de4af14374, type: 3}
   - {fileID: 5968712460293203804, guid: affb8ec0bef9fdb4c8c6c6d5753950ae, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mush5
   m_EditorClassIdentifier: 
   upgradeName: Buy diamond pass(new mushrooms)
-  cost: 100000
+  cost: 1
   mushrooms:
   - {fileID: 5968712460293203804, guid: fae90912d75b79c4ba7ba04ac9dc4e9c, type: 3}
   - {fileID: 5968712460293203804, guid: a890ac7ecb6ab1d4fb6146938e5e08b0, type: 3}

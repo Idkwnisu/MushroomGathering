@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mush2
   m_EditorClassIdentifier: 
   upgradeName: Buy silver pass(new mushrooms)
-  cost: 8000
+  cost: 1
   mushrooms:
   - {fileID: 5968712460293203804, guid: 2c9854dbf5969df4e9d67782795ee60f, type: 3}
   - {fileID: 5968712460293203804, guid: bec517bd95dc63142980a23c6dbc9ca4, type: 3}

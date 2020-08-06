@@ -9,6 +9,10 @@ public class Upgrader : MonoBehaviour
     public Text backpackUpgradeText;
     public Text timeUpgradeText;
 
+    public Button mushroomUpgradeButton;
+    public Button backpackUpgradeButton;
+    public Button timeUpgradeButton;
+
     public MushroomUpgrade[] mushroomUpgrades;
     public BackpackUpgrade[] backpackUpgrades;
     public TimeUpgrade[] timeUpgrades;
@@ -24,9 +28,9 @@ public class Upgrader : MonoBehaviour
     void Start()
     {
         //Take prefs here
-        mushroomUpgradeText.text = mushroomUpgrades[0].upgradeName;
-        backpackUpgradeText.text = backpackUpgrades[0].upgradeName;
-        timeUpgradeText.text = timeUpgrades[0].upgradeName;
+        mushroomUpgradeText.text = mushroomUpgrades[0].upgradeName + " " + mushroomUpgrades[0].cost + "G";
+        backpackUpgradeText.text = backpackUpgrades[0].upgradeName + " " + backpackUpgrades[0].cost + "G"; 
+        timeUpgradeText.text = timeUpgrades[0].upgradeName + " " + timeUpgrades[0].cost + "G";
     }
 
     // Update is called once per frame
@@ -51,7 +55,7 @@ public class Upgrader : MonoBehaviour
             }
             else
             {
-                mushroomUpgradeText.text = mushroomUpgrades[currentOwnedMushroom].upgradeName;
+                mushroomUpgradeText.text = mushroomUpgrades[currentOwnedMushroom].upgradeName + " " + mushroomUpgrades[0].cost + "G";
             }
         }
     }
@@ -72,7 +76,7 @@ public class Upgrader : MonoBehaviour
             }
             else
             {
-                backpackUpgradeText.text = backpackUpgrades[currentOwnedBackpack].upgradeName;
+                backpackUpgradeText.text = backpackUpgrades[currentOwnedBackpack].upgradeName + " " + backpackUpgrades[0].cost + "G";
             }
         }
     }
@@ -93,8 +97,38 @@ public class Upgrader : MonoBehaviour
             }
             else
             {
-                timeUpgradeText.text = timeUpgrades[currentOwnedTime].upgradeName;
+                timeUpgradeText.text = timeUpgrades[currentOwnedTime].upgradeName + " " + timeUpgrades[0].cost + "G";
             }
+        }
+    }
+
+    public void CheckButtons()
+    {
+        if(mushroomUpgrades[currentOwnedMushroom].cost > InventoryManager.Instance.getMoney())
+        {
+            mushroomUpgradeButton.interactable = false;
+        }
+        else
+        {
+            mushroomUpgradeButton.interactable = true;
+        }
+
+        if (backpackUpgrades[currentOwnedBackpack].cost > InventoryManager.Instance.getMoney())
+        {
+            backpackUpgradeButton.interactable = false;
+        }
+        else
+        {
+            backpackUpgradeButton.interactable = true;
+        }
+
+        if (timeUpgrades[currentOwnedTime].cost > InventoryManager.Instance.getMoney())
+        {
+            timeUpgradeButton.interactable = false;
+        }
+        else
+        {
+            timeUpgradeButton.interactable = true;
         }
     }
 }

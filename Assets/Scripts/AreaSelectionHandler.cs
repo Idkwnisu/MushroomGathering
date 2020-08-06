@@ -21,7 +21,6 @@ public class AreaSelectionHandler : MonoBehaviour
     public void CheckButtons()
     {
         List<MushroomUpgrade> areas = GenerationValuesManager.Instance.areasAvailable;
-        Debug.Log(areas.Count);
         for(int i = 0; i < buttons.Length; i++)
         {
             if(areas.Count >= i+1)

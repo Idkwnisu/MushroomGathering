@@ -18,7 +18,7 @@ public class MushroomGameObject : MonoBehaviour
     {
         if(active)
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump") || Input.GetButtonDown("Submit"))
             {
                 if (!BackpackManager.Instance.full)
                 {
