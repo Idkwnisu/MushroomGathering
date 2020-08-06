@@ -371,7 +371,7 @@ public class TileCreatorAdvanced : MonoBehaviour
                         for(int z = 0; z < 3; z++) //stump
                         {
                             Vector3Int position = new Vector3Int(x - size / 2 - 1 + z, y - size / 2 + 1 - i, 0);
-                            decorationTilemap.SetTile(position, treeTile[count]);
+                            treeTilemap.SetTile(position, treeTile[count]);
                             
                             // tilemap.SetColliderType(position, Tile.ColliderType.Grid);
                             count++;
