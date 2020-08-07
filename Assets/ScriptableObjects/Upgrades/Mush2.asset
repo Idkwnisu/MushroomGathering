@@ -12,12 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69071c8ee345254fa1ee7ceab049c72, type: 3}
   m_Name: Mush2
   m_EditorClassIdentifier: 
-  upgradeName: Buy silver pass(new mushrooms)
+  upgradeName: Unlock Iron Dust Path
   cost: 1
   mushrooms:
-  - {fileID: 5968712460293203804, guid: 2c9854dbf5969df4e9d67782795ee60f, type: 3}
-  - {fileID: 5968712460293203804, guid: bec517bd95dc63142980a23c6dbc9ca4, type: 3}
+  - {fileID: 5968712460293203804, guid: 8e743a1aa3cb66d4cb19757af02906d6, type: 3}
   - {fileID: 5968712460293203804, guid: 22745b861833a814da45214537c0750e, type: 3}
-  - {fileID: 5968712460293203804, guid: a7ea074c1c4303f41989b32af35ebe1d, type: 3}
-  - {fileID: 5968712460293203804, guid: 3b92ce0a7660cb74a8be84e8c59c53b0, type: 3}
+  - {fileID: 5968712460293203804, guid: d48eacdf8d13d5546b908d9332879230, type: 3}
+  - {fileID: 5968712460293203804, guid: f8f5ed2c25f3a45408251d56a6ab82b2, type: 3}
+  - {fileID: 5968712460293203804, guid: f57065bcff2f5884d9b5f53e22193c10, type: 3}
   - {fileID: 5968712460293203804, guid: 1f2e4249b4beefc4b8323d626f70f716, type: 3}
+  RangeGround: 0.2
+  RangeDecorations: 0.3
+  RangeTrees: 0.41
+  HueAmount1Ground: 0
+  SatAmount1Ground: 0
+  ValueAmount1Ground: 0
+  HueAmount2Ground: 0
+  SatAmount2Ground: 0
+  ValueAmount2Ground: 0
+  HueAmount1Decorations: 0
+  SatAmount1Decorations: 0
+  ValueAmount1Decorations: 0
+  HueAmount2Decorations: 0
+  SatAmount2Decorations: 0
+  ValueAmount2Decorations: 0
+  HueAmount1Trees: 0
+  SatAmount1Trees: 0
+  ValueAmount1Trees: 0
+  HueAmount2Trees: 0
+  SatAmount2Trees: 0
+  ValueAmount2Trees: 0

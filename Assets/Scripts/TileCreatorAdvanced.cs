@@ -80,6 +80,10 @@ public class TileCreatorAdvanced : MonoBehaviour
     public float startPercentage = 0.05f;
     public float percentageIncrement = 0.05f;
 
+    public Material groundMaterial;
+    public Material decorationsMaterial;
+    public Material treesMaterial;
+
     public bool night = false;
 
     public Light2D light2D;
@@ -122,7 +126,33 @@ public class TileCreatorAdvanced : MonoBehaviour
 
         mushroomLikeness = GenerationValuesManager.Instance.mushroomLikeness;
 
-        mushrooms = GenerationValuesManager.Instance.areasAvailable[GenerationValuesManager.Instance.currentAreaActive].mushrooms;
+        MushroomUpgrade currentArea = GenerationValuesManager.Instance.areasAvailable[GenerationValuesManager.Instance.currentAreaActive];
+
+        mushrooms = currentArea.mushrooms;
+
+        groundMaterial.SetFloat("_Range", currentArea.RangeGround);
+        groundMaterial.SetFloat("_HueAmount1", currentArea.HueAmount1Ground);
+        groundMaterial.SetFloat("_HueAmount2", currentArea.HueAmount2Ground);
+        groundMaterial.SetFloat("_SatAmount1", currentArea.SatAmount1Ground);
+        groundMaterial.SetFloat("_SatAmount2", currentArea.SatAmount2Ground);
+        groundMaterial.SetFloat("_ValueAmount1", currentArea.ValueAmount1Ground);
+        groundMaterial.SetFloat("_ValueAmount2", currentArea.ValueAmount2Ground);
+
+        decorationsMaterial.SetFloat("_Range", currentArea.RangeDecorations);
+        decorationsMaterial.SetFloat("_HueAmount1", currentArea.HueAmount1Decorations);
+        decorationsMaterial.SetFloat("_HueAmount2", currentArea.HueAmount2Decorations);
+        decorationsMaterial.SetFloat("_SatAmount1", currentArea.SatAmount1Decorations);
+        decorationsMaterial.SetFloat("_SatAmount2", currentArea.SatAmount2Decorations);
+        decorationsMaterial.SetFloat("_ValueAmount1", currentArea.ValueAmount1Decorations);
+        decorationsMaterial.SetFloat("_ValueAmount2", currentArea.ValueAmount2Decorations);
+
+        treesMaterial.SetFloat("_Range", currentArea.RangeTrees);
+        treesMaterial.SetFloat("_HueAmount1", currentArea.HueAmount1Trees);
+        treesMaterial.SetFloat("_HueAmount2", currentArea.HueAmount2Trees);
+        treesMaterial.SetFloat("_SatAmount1", currentArea.SatAmount1Trees);
+        treesMaterial.SetFloat("_SatAmount2", currentArea.SatAmount2Trees);
+        treesMaterial.SetFloat("_ValueAmount1", currentArea.ValueAmount1Trees);
+        treesMaterial.SetFloat("_ValueAmount2", currentArea.ValueAmount2Trees);
 
 
         startPercentage = GenerationValuesManager.Instance.startPercentage;

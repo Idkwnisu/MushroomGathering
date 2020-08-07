@@ -12,12 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69071c8ee345254fa1ee7ceab049c72, type: 3}
   m_Name: Mush3
   m_EditorClassIdentifier: 
-  upgradeName: Buy gold pass(new mushrooms)
+  upgradeName: Unlock Sakura Park
   cost: 1
   mushrooms:
-  - {fileID: 5968712460293203804, guid: c2512085b6ddd2549998b4de4af14374, type: 3}
-  - {fileID: 5968712460293203804, guid: affb8ec0bef9fdb4c8c6c6d5753950ae, type: 3}
-  - {fileID: 5968712460293203804, guid: d48eacdf8d13d5546b908d9332879230, type: 3}
+  - {fileID: 5968712460293203804, guid: 80f5294c0c41ae54186b6392c8f595e2, type: 3}
+  - {fileID: 5968712460293203804, guid: 99b962dc123ea8d48833fff0e8223778, type: 3}
   - {fileID: 5968712460293203804, guid: c0b2e047e14bb1549ad039ce9ce0c024, type: 3}
-  - {fileID: 5968712460293203804, guid: 9aa1f81eba3db444b90ae133c9e065b6, type: 3}
-  - {fileID: 5968712460293203804, guid: 664166edbef16924486246ede8feb281, type: 3}
+  - {fileID: 5968712460293203804, guid: 818a328c63c7ba243979241c83fd974d, type: 3}
+  - {fileID: 5968712460293203804, guid: 35add4d5ebe06c247be06fd11e002277, type: 3}
+  - {fileID: 5968712460293203804, guid: 268e631519be67a46ba897ef01284993, type: 3}
+  RangeGround: 0.14
+  RangeDecorations: 0.14
+  RangeTrees: 0.14
+  HueAmount1Ground: 0
+  SatAmount1Ground: 0
+  ValueAmount1Ground: 0
+  HueAmount2Ground: 0
+  SatAmount2Ground: 0
+  ValueAmount2Ground: 0
+  HueAmount1Decorations: 0
+  SatAmount1Decorations: 0
+  ValueAmount1Decorations: 0
+  HueAmount2Decorations: 0
+  SatAmount2Decorations: 0
+  ValueAmount2Decorations: 0
+  HueAmount1Trees: 0
+  SatAmount1Trees: 0
+  ValueAmount1Trees: 0
+  HueAmount2Trees: 0
+  SatAmount2Trees: 0
+  ValueAmount2Trees: 0

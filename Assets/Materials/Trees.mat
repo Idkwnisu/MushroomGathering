@@ -44,7 +44,17 @@ Material:
     - Vector1_E87BC3D2: 0
     - Vector1_ECDD3BD7: -4.36
     - Vector1_FF36069C: 0
+    - _Edge: 0.99
+    - _Fuzziness: 0
+    - _HueAmount1: 0.76
+    - _HueAmount2: 0
+    - _Range: 0.41
+    - _SatAmount1: 0
+    - _SatAmount2: -0.27
+    - _ValueAmount1: 0
+    - _ValueAmount2: 0
     m_Colors:
     - Color_8EBB719D: {r: 0.033285867, g: 0.6415094, b: 0.038458295, a: 1}
     - Color_A1907AF0: {r: 0.08752729, g: 0.4716981, b: 0.028924897, a: 0}
     - Color_B0357B76: {r: 0.15481488, g: 0.1885851, b: 0.6698113, a: 0}
+    - _Color: {r: 0, g: 0.6862745, b: 0.1516174, a: 0}

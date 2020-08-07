@@ -12,12 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69071c8ee345254fa1ee7ceab049c72, type: 3}
   m_Name: Mush1
   m_EditorClassIdentifier: 
-  upgradeName: Buy bronze pass(new mushrooms)
+  upgradeName: Unlock Eternal Fall Forest
   cost: 1
   mushrooms:
-  - {fileID: 5968712460293203804, guid: fdd7570f103282a41aa0e0dbc5c549cf, type: 3}
-  - {fileID: 5968712460293203804, guid: 8e743a1aa3cb66d4cb19757af02906d6, type: 3}
-  - {fileID: 5968712460293203804, guid: 3d6504069251d58438d25c5d9d95e46e, type: 3}
-  - {fileID: 5968712460293203804, guid: 899a3630c97eafa4a877195afc42d076, type: 3}
-  - {fileID: 5968712460293203804, guid: d16574d2ec815ef49aabd63bbbf07ae1, type: 3}
-  - {fileID: 5968712460293203804, guid: 7a3652a362ac47e46859c6584812889d, type: 3}
+  - {fileID: 5968712460293203804, guid: 3b92ce0a7660cb74a8be84e8c59c53b0, type: 3}
+  - {fileID: 5968712460293203804, guid: a6c297872e0345a4bbfd8b82587b5929, type: 3}
+  - {fileID: 5968712460293203804, guid: 2c9854dbf5969df4e9d67782795ee60f, type: 3}
+  - {fileID: 5968712460293203804, guid: bec517bd95dc63142980a23c6dbc9ca4, type: 3}
+  - {fileID: 5968712460293203804, guid: fae90912d75b79c4ba7ba04ac9dc4e9c, type: 3}
+  - {fileID: 5968712460293203804, guid: 2d9988db31602b8459adb3403c50ea09, type: 3}
+  RangeGround: 0.2
+  RangeDecorations: 0.3
+  RangeTrees: 0.41
+  HueAmount1Ground: 0.81
+  SatAmount1Ground: -0.06
+  ValueAmount1Ground: 0
+  HueAmount2Ground: -0.07
+  SatAmount2Ground: 0
+  ValueAmount2Ground: 0
+  HueAmount1Decorations: 0.77
+  SatAmount1Decorations: 0
+  ValueAmount1Decorations: 0
+  HueAmount2Decorations: 0
+  SatAmount2Decorations: 0
+  ValueAmount2Decorations: 0
+  HueAmount1Trees: 0.76
+  SatAmount1Trees: 0
+  ValueAmount1Trees: 0
+  HueAmount2Trees: 0
+  SatAmount2Trees: -0.27
+  ValueAmount2Trees: 0

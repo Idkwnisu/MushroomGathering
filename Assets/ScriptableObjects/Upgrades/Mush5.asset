@@ -12,12 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69071c8ee345254fa1ee7ceab049c72, type: 3}
   m_Name: Mush5
   m_EditorClassIdentifier: 
-  upgradeName: Buy diamond pass(new mushrooms)
+  upgradeName: Unlock Ice Cream Summit
   cost: 1
   mushrooms:
-  - {fileID: 5968712460293203804, guid: fae90912d75b79c4ba7ba04ac9dc4e9c, type: 3}
-  - {fileID: 5968712460293203804, guid: a890ac7ecb6ab1d4fb6146938e5e08b0, type: 3}
-  - {fileID: 5968712460293203804, guid: 07305eb28feb8b7449d706a4180e0323, type: 3}
+  - {fileID: 5968712460293203804, guid: c2512085b6ddd2549998b4de4af14374, type: 3}
   - {fileID: 5968712460293203804, guid: 302712ec068e0044f8e1f96542f9fa54, type: 3}
-  - {fileID: 5968712460293203804, guid: 818a328c63c7ba243979241c83fd974d, type: 3}
-  - {fileID: 5968712460293203804, guid: eaf60c99584cfb24a9fa6aa4b260c594, type: 3}
+  - {fileID: 5968712460293203804, guid: da6aad81670cc144bb8bc01f41778f82, type: 3}
+  - {fileID: 5968712460293203804, guid: affb8ec0bef9fdb4c8c6c6d5753950ae, type: 3}
+  - {fileID: 5968712460293203804, guid: 9aa1f81eba3db444b90ae133c9e065b6, type: 3}
+  - {fileID: 5968712460293203804, guid: 10b72587b3991f84a91cab23789e407a, type: 3}
+  RangeGround: 0.14
+  RangeDecorations: 0.14
+  RangeTrees: 0.14
+  HueAmount1Ground: 0
+  SatAmount1Ground: 0
+  ValueAmount1Ground: 0
+  HueAmount2Ground: 0
+  SatAmount2Ground: 0
+  ValueAmount2Ground: 0
+  HueAmount1Decorations: 0
+  SatAmount1Decorations: 0
+  ValueAmount1Decorations: 0
+  HueAmount2Decorations: 0
+  SatAmount2Decorations: 0
+  ValueAmount2Decorations: 0
+  HueAmount1Trees: 0
+  SatAmount1Trees: 0
+  ValueAmount1Trees: 0
+  HueAmount2Trees: 0
+  SatAmount2Trees: 0
+  ValueAmount2Trees: 0

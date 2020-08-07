@@ -7,7 +7,7 @@ public class InventoryManager : MonoBehaviour
 {
 
     private int money = 0;
-
+    public int startMoney = 200;
     public Text moneyText;
 
     private static InventoryManager _instance;
@@ -30,6 +30,7 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        money = startMoney;
         moneyText.text = money + "G";
     }
 
