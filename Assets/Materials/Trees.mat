@@ -50,13 +50,13 @@ Material:
     - Vector1_FF36069C: 0
     - _Edge: 0.99
     - _Fuzziness: 0
-    - _HueAmount1: 1.2
-    - _HueAmount2: 0
+    - _HueAmount1: 0.66
+    - _HueAmount2: 0.02
     - _Range: 0.14
-    - _SatAmount1: -0.43
-    - _SatAmount2: -0.59
-    - _ValueAmount1: 6.15
-    - _ValueAmount2: 0.88
+    - _SatAmount1: -0.1
+    - _SatAmount2: 0.02
+    - _ValueAmount1: 14.58
+    - _ValueAmount2: 2.49
     m_Colors:
     - Color_8EBB719D: {r: 0.033285867, g: 0.6415094, b: 0.038458295, a: 1}
     - Color_A1907AF0: {r: 0.08752729, g: 0.4716981, b: 0.028924897, a: 0}
