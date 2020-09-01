@@ -146,7 +146,6 @@ public class TileCreatorAdvanced : MonoBehaviour
         decorationsMaterial.SetFloat("_ValueAmount1", currentArea.ValueAmount1Decorations);
         decorationsMaterial.SetFloat("_ValueAmount2", currentArea.ValueAmount2Decorations);
 
-        treesMaterial.SetFloat("_Range", currentArea.RangeTrees);
         treesMaterial.SetFloat("_HueAmount1", currentArea.HueAmount1Trees);
         treesMaterial.SetFloat("_HueAmount2", currentArea.HueAmount2Trees);
         treesMaterial.SetFloat("_SatAmount1", currentArea.SatAmount1Trees);

@@ -104,6 +104,7 @@ public class Upgrader : MonoBehaviour
 
     public void CheckButtons()
     {
+        //controlla che ci siano ancora upgrade
         if(mushroomUpgrades[currentOwnedMushroom].cost > InventoryManager.Instance.getMoney())
         {
             mushroomUpgradeButton.interactable = false;

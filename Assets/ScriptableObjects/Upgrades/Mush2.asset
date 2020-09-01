@@ -23,10 +23,9 @@ MonoBehaviour:
   - {fileID: 5968712460293203804, guid: 1f2e4249b4beefc4b8323d626f70f716, type: 3}
   RangeGround: 0.2
   RangeDecorations: 0.36
-  RangeTrees: 0.76
   HueAmount1Ground: 0
   SatAmount1Ground: -0.54
-  ValueAmount1Ground: 0
+  ValueAmount1Ground: 1
   HueAmount2Ground: -0.08
   SatAmount2Ground: -0.32
   ValueAmount2Ground: 1
@@ -38,7 +37,7 @@ MonoBehaviour:
   ValueAmount2Decorations: 0.92
   HueAmount1Trees: 0.38
   SatAmount1Trees: -0.51
-  ValueAmount1Trees: -0.04
+  ValueAmount1Trees: 0.99
   HueAmount2Trees: 0.41
   SatAmount2Trees: -0.65
-  ValueAmount2Trees: 0
+  ValueAmount2Trees: 1

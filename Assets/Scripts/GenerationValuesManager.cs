@@ -47,19 +47,20 @@ public class GenerationValuesManager : MonoBehaviour
         if (_instance != null && _instance != this)
         {
             Destroy(this.gameObject);
-            DontDestroyOnLoad(this);
         }
         else
         {
+            areasAvailable = new List<MushroomUpgrade>();
+            areasAvailable.Add(startingArea);
             _instance = this;
+            DontDestroyOnLoad(this);
         }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        areasAvailable = new List<MushroomUpgrade>();
-        areasAvailable.Add(startingArea);
+        
     }
 
     // Update is called once per frame

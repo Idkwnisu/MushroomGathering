@@ -12,9 +12,6 @@ public class MushroomUpgrade : ScriptableObject
 
     public float RangeDecorations = 0.14f;
 
-    public float RangeTrees = 0.14f;
-
-
     public float HueAmount1Ground;
     public float SatAmount1Ground;
     public float ValueAmount1Ground;
