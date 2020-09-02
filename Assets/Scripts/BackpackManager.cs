@@ -99,5 +99,6 @@ public class BackpackManager : MonoBehaviour
         //Time is up
         InventoryManager.Instance.SellMushrooms(mushroomsTaken, mushroomNr);
         SceneManager.LoadScene("StartScene");
+        
     }
 }

@@ -46,12 +46,12 @@ Material:
     - Vector1_FF36069C: 0
     - _Edge: 0.99
     - _Fuzziness: 0
-    - _HueAmount1: 0.5
+    - _HueAmount1: 0
     - _HueAmount2: 0
-    - _Range: 0.45
+    - _Range: 0.14
     - _SatAmount1: 0
     - _SatAmount2: 0
-    - _ValueAmount1: 4
+    - _ValueAmount1: 1
     - _ValueAmount2: 1
     m_Colors:
     - Color_8EBB719D: {r: 0.033285867, g: 0.6415094, b: 0.038458295, a: 1}

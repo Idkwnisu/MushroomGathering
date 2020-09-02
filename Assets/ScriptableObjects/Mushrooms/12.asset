@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: El primero
   id: 12
-  value: 200
+  value: 120
   sprite: {fileID: -7263262467203474343, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

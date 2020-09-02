@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -10,7 +11,13 @@ public class InventoryManager : MonoBehaviour
     public int startMoney = 200;
     public Text moneyText;
 
+    public MushroomShower shower;
+
     private static InventoryManager _instance;
+
+    private Mushroom[] toSell;
+    private int numToSell;
+    private bool selling = false;
 
     public static InventoryManager Instance { get { return _instance; } }
 
@@ -27,11 +34,33 @@ public class InventoryManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
     }
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        Debug.Log("enable");
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (selling)
+        {
+            for (int i = 0; i < numToSell; i++)
+            {
+                money += toSell[i].value;
+            }
+
+            moneyText.text = money + "G";
+            shower = FindObjectOfType<MushroomShower>();
+            shower.ShowMushrooms(toSell, numToSell);
+        }
+        Debug.Log("Loaded");
+    }
     // Start is called before the first frame update
     void Start()
     {
         money = startMoney;
         moneyText.text = money + "G";
+       
     }
 
     // Update is called once per frame
@@ -42,12 +71,9 @@ public class InventoryManager : MonoBehaviour
 
     public void SellMushrooms(Mushroom[] mushroomsBought, int num)
     {
-        for(int i = 0; i < num; i++)
-        {
-            money += mushroomsBought[i].value;
-        }
-
-        moneyText.text = money + "G";
+        toSell = mushroomsBought;
+        numToSell = num;
+        selling = true;
     }
 
     public int getMoney()
