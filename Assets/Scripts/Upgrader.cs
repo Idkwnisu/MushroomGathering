@@ -17,13 +17,9 @@ public class Upgrader : MonoBehaviour
     public BackpackUpgrade[] backpackUpgrades;
     public TimeUpgrade[] timeUpgrades;
 
-    private int currentOwnedMushroom = 0;
 
     private bool fullMushroomBought = false;
 
-    private int currentOwnedBackpack = 0;
-
-    private int currentOwnedTime = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,63 +37,63 @@ public class Upgrader : MonoBehaviour
 
     public void BuyNextMushroom()
     {
-        if(InventoryManager.Instance.getMoney() > mushroomUpgrades[currentOwnedMushroom].cost)
+        if(InventoryManager.Instance.getMoney() > mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom].cost)
         {
-            InventoryManager.Instance.spend(mushroomUpgrades[currentOwnedMushroom].cost);
+            InventoryManager.Instance.spend(mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom].cost);
 
-            GenerationValuesManager.Instance.areasAvailable.Add(mushroomUpgrades[currentOwnedMushroom]);
+            GenerationValuesManager.Instance.areasAvailable.Add(mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom]);
 
-            currentOwnedMushroom++;
-            if (currentOwnedMushroom >= mushroomUpgrades.Length)
+            SaveManager.Instance.currentOwnedMushroom++;
+            if (SaveManager.Instance.currentOwnedMushroom >= mushroomUpgrades.Length)
             {
                 mushroomUpgradeText.GetComponentInParent<Button>().interactable = false;
                 mushroomUpgradeText.text = "-";
             }
             else
             {
-                mushroomUpgradeText.text = mushroomUpgrades[currentOwnedMushroom].upgradeName + " " + mushroomUpgrades[0].cost + "G";
+                mushroomUpgradeText.text = mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom].upgradeName + " " + mushroomUpgrades[0].cost + "G";
             }
         }
     }
 
     public void BuyNextBackpack()
     {
-        if (InventoryManager.Instance.getMoney() > backpackUpgrades[currentOwnedMushroom].cost)
+        if (InventoryManager.Instance.getMoney() > backpackUpgrades[SaveManager.Instance.currentOwnedMushroom].cost)
         {
-            InventoryManager.Instance.spend(backpackUpgrades[currentOwnedMushroom].cost);
+            InventoryManager.Instance.spend(backpackUpgrades[SaveManager.Instance.currentOwnedMushroom].cost);
 
-            GenerationValuesManager.Instance.backpackSize = backpackUpgrades[currentOwnedMushroom].newSize;
+            GenerationValuesManager.Instance.backpackSize = backpackUpgrades[SaveManager.Instance.currentOwnedMushroom].newSize;
 
-            currentOwnedBackpack++;
-            if (currentOwnedBackpack >= backpackUpgrades.Length)
+            SaveManager.Instance.currentOwnedBackpack++;
+            if (SaveManager.Instance.currentOwnedBackpack >= backpackUpgrades.Length)
             {
                 backpackUpgradeText.GetComponentInParent<Button>().interactable = false;
                 backpackUpgradeText.text = "-";
             }
             else
             {
-                backpackUpgradeText.text = backpackUpgrades[currentOwnedBackpack].upgradeName + " " + backpackUpgrades[0].cost + "G";
+                backpackUpgradeText.text = backpackUpgrades[SaveManager.Instance.currentOwnedBackpack].upgradeName + " " + backpackUpgrades[0].cost + "G";
             }
         }
     }
 
     public void BuyNextTime()
     {
-        if (InventoryManager.Instance.getMoney() > timeUpgrades[currentOwnedTime].cost)
+        if (InventoryManager.Instance.getMoney() > timeUpgrades[SaveManager.Instance.currentOwnedTime].cost)
         {
-            InventoryManager.Instance.spend(timeUpgrades[currentOwnedTime].cost);
+            InventoryManager.Instance.spend(timeUpgrades[SaveManager.Instance.currentOwnedTime].cost);
 
-            GenerationValuesManager.Instance.duration = timeUpgrades[currentOwnedTime].newSeconds;
+            GenerationValuesManager.Instance.duration = timeUpgrades[SaveManager.Instance.currentOwnedTime].newSeconds;
 
-            currentOwnedTime++;
-            if (currentOwnedTime >= timeUpgrades.Length)
+            SaveManager.Instance.currentOwnedTime++;
+            if (SaveManager.Instance.currentOwnedTime >= timeUpgrades.Length)
             {
                 timeUpgradeText.GetComponentInParent<Button>().interactable = false;
                 timeUpgradeText.text = "-";
             }
             else
             {
-                timeUpgradeText.text = timeUpgrades[currentOwnedTime].upgradeName + " " + timeUpgrades[0].cost + "G";
+                timeUpgradeText.text = timeUpgrades[SaveManager.Instance.currentOwnedTime].upgradeName + " " + timeUpgrades[0].cost + "G";
             }
         }
     }
@@ -105,7 +101,7 @@ public class Upgrader : MonoBehaviour
     public void CheckButtons()
     {
         //controlla che ci siano ancora upgrade
-        if(mushroomUpgrades[currentOwnedMushroom].cost > InventoryManager.Instance.getMoney())
+        if(mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom].cost > InventoryManager.Instance.getMoney())
         {
             mushroomUpgradeButton.interactable = false;
         }
@@ -114,7 +110,7 @@ public class Upgrader : MonoBehaviour
             mushroomUpgradeButton.interactable = true;
         }
 
-        if (backpackUpgrades[currentOwnedBackpack].cost > InventoryManager.Instance.getMoney())
+        if (backpackUpgrades[SaveManager.Instance.currentOwnedBackpack].cost > InventoryManager.Instance.getMoney())
         {
             backpackUpgradeButton.interactable = false;
         }
@@ -123,7 +119,7 @@ public class Upgrader : MonoBehaviour
             backpackUpgradeButton.interactable = true;
         }
 
-        if (timeUpgrades[currentOwnedTime].cost > InventoryManager.Instance.getMoney())
+        if (timeUpgrades[SaveManager.Instance.currentOwnedTime].cost > InventoryManager.Instance.getMoney())
         {
             timeUpgradeButton.interactable = false;
         }
