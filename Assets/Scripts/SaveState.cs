@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class SaveState : MonoBehaviour
+public class SaveState
 {
     public int money = 0;
     public int mushroomUpgrades = 0;

@@ -38,7 +38,7 @@ public class SaveManager : MonoBehaviour
         
     }
 
-    public void SaveFile()
+    public void SaveGame()
     {
 
         SaveState state = new SaveState();
@@ -53,6 +53,20 @@ public class SaveManager : MonoBehaviour
         file.Close();
     }
 
+    public void LoadGame()
+    {
+        if (File.Exists(Application.persistentDataPath + "/savefile.save"))
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(Application.persistentDataPath + "/savefile.save", FileMode.Open);
+            SaveState state = (SaveState)bf.Deserialize(file);
+            InventoryManager.Instance.setMoney(state.money);
+            currentOwnedMushroom = state.mushroomUpgrades;
+            currentOwnedBackpack = state.backpackUpgrades;
+            currentOwnedTime = state.timeUpgrades;
+        }
+
+    }
     // Update is called once per frame
     void Update()
     {

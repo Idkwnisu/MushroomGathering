@@ -86,4 +86,10 @@ public class InventoryManager : MonoBehaviour
         money -= moneySpent;
         moneyText.text = money + "G";
     }
+
+    public void setMoney(int newMoney)
+    {
+        money = newMoney;
+        moneyText.text = money + "G";
+    }
 }
