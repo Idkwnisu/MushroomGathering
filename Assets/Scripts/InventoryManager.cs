@@ -44,6 +44,8 @@ public class InventoryManager : MonoBehaviour
     {
         if (selling)
         {
+            MushroomEncyclopedia.Instance.CollectMushrooms(toSell,numToSell);
+
             for (int i = 0; i < numToSell; i++)
             {
                 money += toSell[i].value;
