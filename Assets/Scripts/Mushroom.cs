@@ -5,6 +5,9 @@ public class Mushroom : ScriptableObject
 {
     public string mushroomName;
 
+    public string description;
+    public string realLifeDescription;
+
     public int id;
     public int value;
 

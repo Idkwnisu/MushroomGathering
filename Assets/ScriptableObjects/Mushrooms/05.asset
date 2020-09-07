@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 05
   m_EditorClassIdentifier: 
-  mushroomName: El primero
+  mushroomName: Name Test
+  description: This is a test description for the mushroom
+  realLifeDescription: This is a test description for the real life inspiration of
+    the mushroom
   id: 5
   value: 150
   sprite: {fileID: 6708733205153277002, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
