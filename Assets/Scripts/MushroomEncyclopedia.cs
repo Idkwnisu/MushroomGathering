@@ -46,6 +46,7 @@ public class MushroomEncyclopedia : MonoBehaviour
             mushroomCollection[toCollect[i]]++;
         }
         MushroomEncyclopediaManager.Instance.UpdateSprites();
+        MushroomEncyclopediaManager.Instance.UpdateRooms();
     }
 
     

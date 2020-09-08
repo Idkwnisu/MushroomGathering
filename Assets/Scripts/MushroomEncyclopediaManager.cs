@@ -10,6 +10,8 @@ public class MushroomEncyclopediaManager : MonoBehaviour
 
     public GameObject[] indicators;
 
+    public GameObject[] roomBlockers;
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -44,6 +46,18 @@ public class MushroomEncyclopediaManager : MonoBehaviour
             else
             {
                 indicators[i].SetActive(false);
+            }
+        }
+    }
+
+    public void UpdateRooms()
+    {
+        Debug.Log("Update rooms");
+        for(int i = 0; i < SaveManager.Instance.currentOwnedMushroom; i++)
+        {
+            if(i < roomBlockers.Length)
+            {
+                roomBlockers[i].SetActive(false);
             }
         }
     }

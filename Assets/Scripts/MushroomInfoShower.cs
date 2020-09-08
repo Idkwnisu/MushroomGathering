@@ -32,7 +32,7 @@ public class MushroomInfoShower : MonoBehaviour
     {
         int collected = MushroomEncyclopedia.Instance.mushroomCollection[shroom];
         image.sprite = shroom.sprite;
-        mushroomName.text = shroom.mushroomName + "Collected: "+collected;
+        mushroomName.text = shroom.mushroomName + "   Collected: "+collected;
         if (collected > numDescriptionUnlock)
         {
             description.text = shroom.description;
