@@ -28,67 +28,74 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float Hor = Input.GetAxis("Horizontal");
-        float Ver = Input.GetAxis("Vertical");
-
-        Vector2 force = new Vector2(Hor, Ver);
-
-        if(rb2d.velocity.magnitude <= terminalSpeed)
-            rb2d.AddForce(force.normalized * speed * Time.fixedDeltaTime);
-
-        if(rb2d.velocity.magnitude >= terminalSpeed)
+        bool moving = true;
+        if(BackpackManager.Instance != null)
         {
-            rb2d.velocity = rb2d.velocity.normalized * terminalSpeed;
+            moving = !BackpackManager.Instance.end;
         }
-
-
-        if (Mathf.Abs(Hor) < dampThreshold || Mathf.Abs(Ver) < dampThreshold)
+        if (moving)
         {
-            Vector2 dampingVector = new Vector2(1.0f, 1.0f);
-            if(Mathf.Abs(Hor) < dampThreshold)
+            float Hor = Input.GetAxis("Horizontal");
+            float Ver = Input.GetAxis("Vertical");
+
+            Vector2 force = new Vector2(Hor, Ver);
+
+            if (rb2d.velocity.magnitude <= terminalSpeed)
+                rb2d.AddForce(force.normalized * speed * Time.fixedDeltaTime);
+
+            if (rb2d.velocity.magnitude >= terminalSpeed)
             {
-                dampingVector.x = damp;
+                rb2d.velocity = rb2d.velocity.normalized * terminalSpeed;
             }
-            if(Mathf.Abs(Ver) < dampThreshold)
+
+
+            if (Mathf.Abs(Hor) < dampThreshold || Mathf.Abs(Ver) < dampThreshold)
             {
-                dampingVector.y = damp;
+                Vector2 dampingVector = new Vector2(1.0f, 1.0f);
+                if (Mathf.Abs(Hor) < dampThreshold)
+                {
+                    dampingVector.x = damp;
+                }
+                if (Mathf.Abs(Ver) < dampThreshold)
+                {
+                    dampingVector.y = damp;
+                }
+                rb2d.velocity = rb2d.velocity * dampingVector;
             }
-            rb2d.velocity = rb2d.velocity * dampingVector;
-        }
 
-        if(rb2d.velocity.magnitude < 0.01f)
-        {
-            animator.SetBool("Side", false);
-            animator.SetBool("Up", false);
-            animator.SetBool("Down", false);
-        }
-
-        if(Mathf.Abs(Hor) > Mathf.Abs(Ver))
-        {
-            animator.SetBool("Side", true);
-            animator.SetBool("Up", false);
-            animator.SetBool("Down", false);
-            if (Hor < 0)
-                spriteRenderer.flipX = true;
-            else
-                spriteRenderer.flipX = false;
-        }
-        else if(Mathf.Abs(Ver) > Mathf.Abs(Hor))
-        {
-            if(Ver > 0)
+            if (rb2d.velocity.magnitude < 0.01f)
             {
-                animator.SetBool("Up", true);
-                animator.SetBool("Down", false);
                 animator.SetBool("Side", false);
-            }
-            else
-            {
-                animator.SetBool("Down", true);
                 animator.SetBool("Up", false);
-                animator.SetBool("Side", false);
+                animator.SetBool("Down", false);
             }
-        }
 
-       
+            if (Mathf.Abs(Hor) > Mathf.Abs(Ver))
+            {
+                animator.SetBool("Side", true);
+                animator.SetBool("Up", false);
+                animator.SetBool("Down", false);
+                if (Hor < 0)
+                    spriteRenderer.flipX = true;
+                else
+                    spriteRenderer.flipX = false;
+            }
+            else if (Mathf.Abs(Ver) > Mathf.Abs(Hor))
+            {
+                if (Ver > 0)
+                {
+                    animator.SetBool("Up", true);
+                    animator.SetBool("Down", false);
+                    animator.SetBool("Side", false);
+                }
+                else
+                {
+                    animator.SetBool("Down", true);
+                    animator.SetBool("Up", false);
+                    animator.SetBool("Side", false);
+                }
+            }
+
+        }
     }
 }

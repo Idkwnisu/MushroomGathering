@@ -47,10 +47,10 @@ Material:
     - _Edge: 0.99
     - _Fuzziness: 0
     - _HueAmount1: 0
-    - _HueAmount2: -0.08
-    - _Range: 0.2
-    - _SatAmount1: -0.54
-    - _SatAmount2: -0.32
+    - _HueAmount2: 0
+    - _Range: 0.14
+    - _SatAmount1: 0
+    - _SatAmount2: 0
     - _ValueAmount1: 1
     - _ValueAmount2: 1
     m_Colors:

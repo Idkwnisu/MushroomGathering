@@ -18,6 +18,13 @@ public class BackpackManager : MonoBehaviour
 
     private int mushroomNr = 0;
 
+    public GameObject endPanel;
+    public Text endText;
+    [HideInInspector]
+    public bool end = false;
+
+    public float changeDelay = 0.3f;
+
     private Mushroom[] mushroomsTaken;
     private static BackpackManager _instance;
 
@@ -77,8 +84,11 @@ public class BackpackManager : MonoBehaviour
 
         if(mushroomNr >= mushroomsTaken.Length)
         {
-            InventoryManager.Instance.SellMushrooms(mushroomsTaken, mushroomNr);
-            SceneManager.LoadScene("StartScene");
+            endPanel.SetActive(true);
+            endText.text = "Backpack is full";
+            end = true;
+
+            Invoke("ChangeScene", changeDelay);
         }
     }
 
@@ -97,8 +107,16 @@ public class BackpackManager : MonoBehaviour
         }
 
         //Time is up
+        endPanel.SetActive(true);
+        endText.text = "Time Over";
+        end = true;
+
+        Invoke("ChangeScene", changeDelay);
+    }
+
+   public void ChangeScene()
+    {
         InventoryManager.Instance.SellMushrooms(mushroomsTaken, mushroomNr);
         SceneManager.LoadScene("StartScene");
-        
     }
 }
