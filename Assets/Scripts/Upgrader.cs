@@ -181,31 +181,54 @@ public class Upgrader : MonoBehaviour
     public void CheckButtons()
     {
         //controlla che ci siano ancora upgrade
-        if(mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom].cost > InventoryManager.Instance.getMoney())
+        if(mushroomUpgrades.Length < SaveManager.Instance.currentOwnedMushroom)
+        {
+            if (mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom].cost > InventoryManager.Instance.getMoney())
+            {
+                mushroomUpgradeButton.interactable = false;
+            }
+            else
+            {
+                mushroomUpgradeButton.interactable = true;
+            }
+        }
+        else
         {
             mushroomUpgradeButton.interactable = false;
         }
-        else
-        {
-            mushroomUpgradeButton.interactable = true;
-        }
 
-        if (backpackUpgrades[SaveManager.Instance.currentOwnedBackpack].cost > InventoryManager.Instance.getMoney())
+
+        if (backpackUpgrades.Length < SaveManager.Instance.currentOwnedBackpack)
+        {
+            if (backpackUpgrades[SaveManager.Instance.currentOwnedBackpack].cost > InventoryManager.Instance.getMoney())
+            {
+                backpackUpgradeButton.interactable = false;
+            }
+            else
+            {
+                backpackUpgradeButton.interactable = true;
+            }
+        }
+        else
         {
             backpackUpgradeButton.interactable = false;
         }
-        else
-        {
-            backpackUpgradeButton.interactable = true;
-        }
 
-        if (timeUpgrades[SaveManager.Instance.currentOwnedTime].cost > InventoryManager.Instance.getMoney())
+        if (timeUpgrades.Length < SaveManager.Instance.currentOwnedTime)
+        {
+
+            if (timeUpgrades[SaveManager.Instance.currentOwnedTime].cost > InventoryManager.Instance.getMoney())
+            {
+                timeUpgradeButton.interactable = false;
+            }
+            else
+            {
+                timeUpgradeButton.interactable = true;
+            }
+        }
+        else
         {
             timeUpgradeButton.interactable = false;
-        }
-        else
-        {
-            timeUpgradeButton.interactable = true;
         }
     }
 }

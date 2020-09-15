@@ -16,6 +16,8 @@ public class MushroomInfoShower : MonoBehaviour
     public int numDescriptionUnlock = 5;
     public int numRealLifeDescriptionUnlock = 20;
     private bool active;
+
+    public bool debugText = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,13 +35,21 @@ public class MushroomInfoShower : MonoBehaviour
         int collected = MushroomEncyclopedia.Instance.mushroomCollection[shroom];
         image.sprite = shroom.sprite;
         mushroomName.text = shroom.mushroomName + "   Collected: "+collected;
-        if (collected > numDescriptionUnlock)
+        if (collected > numDescriptionUnlock || debugText)
         {
             description.text = shroom.description;
         }
-        if (collected > numRealLifeDescriptionUnlock)
+        else
+        {
+            description.text = "Gather " + numDescriptionUnlock + " times to unlock description";
+        }
+        if (collected > numRealLifeDescriptionUnlock || debugText)
         {
             realLifeDescription.text = shroom.realLifeDescription;
+        }
+        else
+        {
+            realLifeDescription.text = "Gather " + numRealLifeDescriptionUnlock + " times to unlock real life inspiration";
         }
     }
 
