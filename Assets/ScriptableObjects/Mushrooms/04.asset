@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 04
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Plagueshroom
+  description: The peculiar name of this mushroom comes from the fact that it survives
+    infecting trees and spreading around, if kept unchecked it can completely destroy
+    a forest, making the trees pale and sick
+  realLifeDescription: The real mushroom that inspired this specie is the Armillaria
+    Ostoyae, the most common plant-pathogenic fungus in the US. It is known as having
+    grown possibly the largest living organism by area. It spreds mostly underground,
+    where the most part lies. In autumn it blooms showing the bulbs
   id: 4
   value: 150
   sprite: {fileID: 8553092956536608252, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
