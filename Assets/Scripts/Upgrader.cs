@@ -181,7 +181,7 @@ public class Upgrader : MonoBehaviour
     public void CheckButtons()
     {
         //controlla che ci siano ancora upgrade
-        if(mushroomUpgrades.Length < SaveManager.Instance.currentOwnedMushroom)
+        if(mushroomUpgrades.Length > SaveManager.Instance.currentOwnedMushroom)
         {
             if (mushroomUpgrades[SaveManager.Instance.currentOwnedMushroom].cost > InventoryManager.Instance.getMoney())
             {
@@ -198,7 +198,7 @@ public class Upgrader : MonoBehaviour
         }
 
 
-        if (backpackUpgrades.Length < SaveManager.Instance.currentOwnedBackpack)
+        if (backpackUpgrades.Length > SaveManager.Instance.currentOwnedBackpack)
         {
             if (backpackUpgrades[SaveManager.Instance.currentOwnedBackpack].cost > InventoryManager.Instance.getMoney())
             {
@@ -214,7 +214,7 @@ public class Upgrader : MonoBehaviour
             backpackUpgradeButton.interactable = false;
         }
 
-        if (timeUpgrades.Length < SaveManager.Instance.currentOwnedTime)
+        if (timeUpgrades.Length > SaveManager.Instance.currentOwnedTime)
         {
 
             if (timeUpgrades[SaveManager.Instance.currentOwnedTime].cost > InventoryManager.Instance.getMoney())

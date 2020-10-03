@@ -130,6 +130,9 @@ public class TileCreatorAdvanced : MonoBehaviour
 
         mushrooms = currentArea.mushrooms;
 
+        decorations = currentArea.tiles;
+
+
         groundMaterial.SetFloat("_Range", currentArea.RangeGround);
         groundMaterial.SetFloat("_HueAmount1", currentArea.HueAmount1Ground);
         groundMaterial.SetFloat("_HueAmount2", currentArea.HueAmount2Ground);

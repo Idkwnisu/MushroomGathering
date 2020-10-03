@@ -21,6 +21,12 @@ MonoBehaviour:
   - {fileID: 5968712460293203804, guid: 664166edbef16924486246ede8feb281, type: 3}
   - {fileID: 5968712460293203804, guid: 616c5c050fb9560409326996f1f731ac, type: 3}
   - {fileID: 5968712460293203804, guid: 07305eb28feb8b7449d706a4180e0323, type: 3}
+  tiles:
+  - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}
+  - {fileID: 11400000, guid: fb6b568752049e347a72f8b651ce3bc7, type: 2}
+  - {fileID: 11400000, guid: 9d8d86fccd0d9194b819dfba3b6af13c, type: 2}
+  - {fileID: 11400000, guid: dd0f564e607707f49bb8c68c005097c9, type: 2}
+  - {fileID: 11400000, guid: da9e76600fd9dfe48a63e20748ea26d5, type: 2}
   RangeGround: 0.14
   RangeDecorations: 0.14
   HueAmount1Ground: 0

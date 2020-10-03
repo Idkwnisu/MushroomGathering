@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Tilemaps;
 
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/MushroomUpgrade", order = 1)]
 public class MushroomUpgrade : ScriptableObject
@@ -7,6 +8,7 @@ public class MushroomUpgrade : ScriptableObject
 
     public int cost;
     public GameObject[] mushrooms;
+    public Tile[] tiles;
 
     public float RangeGround = 0.14f;
 

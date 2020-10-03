@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class GenerationValuesManager : MonoBehaviour
 {
@@ -35,6 +36,8 @@ public class GenerationValuesManager : MonoBehaviour
 
     public int backpackSize = 5;
     public int duration = 120;
+
+    public Tile[] decorations;
 
 
     private static GenerationValuesManager _instance;
