@@ -498,6 +498,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &44714982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -628,6 +629,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &50754342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1306,6 +1308,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &134884613
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1623,6 +1626,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &174855908
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1831,6 +1835,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &224856680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2106,6 +2111,32 @@ Transform:
   m_Father: {fileID: 1362237152}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &249987018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2344499209706150175, guid: 79c89a9658a2ac9429e71d8be37c4872,
+    type: 3}
+  m_PrefabInstance: {fileID: 1067139577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &249987023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249987018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AssetsPPU: 128
+  m_RefResolutionX: 400
+  m_RefResolutionY: 300
+  m_UpscaleRT: 0
+  m_PixelSnapping: 1
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!1 &251116897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,6 +2216,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &251116901
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2687,6 +2719,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!61 &376819239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3885,6 +3918,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &414747305
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4185,6 +4219,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &444711947
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4490,6 +4525,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &486034579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4620,6 +4656,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &495218964
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5019,6 +5056,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!61 &540312133
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5124,6 +5162,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &543233275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5455,6 +5494,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &593111228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8014,6 +8054,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &717371338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8221,6 +8262,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &773359543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9464,6 +9506,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1138268188
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9594,6 +9637,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1157116381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9910,6 +9954,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1207150634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10118,6 +10163,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1223704684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10248,6 +10294,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1228495517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10658,6 +10705,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1297553906
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13329,6 +13377,7 @@ MonoBehaviour:
   night: 0
   backpackSize: 5
   duration: 120
+  decorations: []
 --- !u!4 &1426922263
 Transform:
   m_ObjectHideFlags: 0
@@ -13685,6 +13734,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!61 &1575070540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13790,6 +13840,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1582377216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23709,6 +23760,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!61 &1662178104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24088,6 +24140,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1720130556
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24310,6 +24363,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1735081967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24700,6 +24754,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1759306052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24830,6 +24885,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1775416174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25035,6 +25091,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1778710846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25165,6 +25222,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1794072350
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37909,6 +37967,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1874683898
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38194,6 +38253,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!61 &1914632648
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38324,6 +38384,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!61 &1957185973
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38780,6 +38841,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &1997294684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39169,6 +39231,7 @@ MonoBehaviour:
   realLifeDescription: {fileID: 1837480682}
   numDescriptionUnlock: 5
   numRealLifeDescriptionUnlock: 20
+  debugText: 0
 --- !u!212 &2041459247
 SpriteRenderer:
   m_ObjectHideFlags: 0
