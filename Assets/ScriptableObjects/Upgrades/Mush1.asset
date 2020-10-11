@@ -23,6 +23,7 @@ MonoBehaviour:
   - {fileID: 5968712460293203804, guid: 2d9988db31602b8459adb3403c50ea09, type: 3}
   tiles:
   - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}
+  - {fileID: 11400000, guid: 691a089e786f9ce43a942f8cab867d82, type: 2}
   RangeGround: 0.2
   RangeDecorations: 0.3
   HueAmount1Ground: 0.81
