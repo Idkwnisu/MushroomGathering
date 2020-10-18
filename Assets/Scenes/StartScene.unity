@@ -13362,11 +13362,11 @@ MonoBehaviour:
   size: 300
   nrSteps: 4000
   nrInits: 1
-  smooth: 6
-  smoothFactor: 4
+  smooth: 2
+  smoothFactor: 3
   treeGrassLikeness: 0.05
   treePathLikeness: 0.01
-  decorationLikeness: 0.1
+  decorationLikeness: 0.05
   lamppostLikeness: 0.01
   mushroomLikeness: 0.3
   areasAvailable: []

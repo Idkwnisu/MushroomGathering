@@ -9,6 +9,7 @@ public class MushroomUpgrade : ScriptableObject
     public int cost;
     public GameObject[] mushrooms;
     public Tile[] tiles;
+    public int[] tileProb;
 
     public float RangeGround = 0.14f;
 

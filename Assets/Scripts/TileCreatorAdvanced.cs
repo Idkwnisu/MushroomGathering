@@ -34,6 +34,7 @@ public class TileCreatorAdvanced : MonoBehaviour
     public Tile wallTile;
 
     public Tile[] decorations;
+    public int[] decorationProb;
 
     private int[,] content;
     private int[,] treeContent;
@@ -131,6 +132,7 @@ public class TileCreatorAdvanced : MonoBehaviour
         mushrooms = currentArea.mushrooms;
 
         decorations = currentArea.tiles;
+        decorationProb = currentArea.tileProb;
 
 
         groundMaterial.SetFloat("_Range", currentArea.RangeGround);
@@ -657,7 +659,24 @@ public class TileCreatorAdvanced : MonoBehaviour
                 {
                     if(Random.Range(0.0f, 1.0f) < decorationLikeness)
                     {
-                        treeContent[x, y] = Random.Range(0, decorations.Length) + 2;
+                        int full = 0;
+                        for(int i = 0; i < decorations.Length; i++)
+                        {
+                            full += decorationProb[i];
+                        }
+                        int rnd = Random.Range(0, full);
+                        int index = 0;
+                        full = 0;
+                        for (int i = 0; i < decorations.Length; i++)
+                        {
+                            if(rnd < decorationProb[i] + full)
+                            {
+                                index = i;
+                                break;
+                            }
+                            full += decorationProb[i];
+                        }
+                        treeContent[x, y] = index + 2;
                     }
                 }
             }

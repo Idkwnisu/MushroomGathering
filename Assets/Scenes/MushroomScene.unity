@@ -333,14 +333,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9d8d86fccd0d9194b819dfba3b6af13c, type: 2}
   - {fileID: 11400000, guid: dd0f564e607707f49bb8c68c005097c9, type: 2}
   - {fileID: 11400000, guid: da9e76600fd9dfe48a63e20748ea26d5, type: 2}
+  decorationProb: 
   size: 300
   nrSteps: 5000
   nrInits: 1
   smooth: 6
-  smoothFactor: 4
+  smoothFactor: 5
   treeGrassLikeness: 0.05
   treePathLikeness: 0.01
-  decorationLikeness: 0.1
+  decorationLikeness: 0.008
   lamppostLikeness: 0.01
   mushroomLikeness: 0.3
   treeTile:
