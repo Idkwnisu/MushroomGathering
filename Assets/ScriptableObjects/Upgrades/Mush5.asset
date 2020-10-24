@@ -24,6 +24,9 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}
   tileProb: 0a0000000a0000000a0000000a0000000a000000
+  toIstantiateOnPlayer:
+  - {fileID: 3986845345126114022, guid: 93d8c5672553551419496d9825e2d5ba, type: 3}
+  toInstantiateOnScene: []
   RangeGround: 0.4
   RangeDecorations: 0.5
   HueAmount1Ground: -0.71
