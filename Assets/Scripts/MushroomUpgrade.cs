@@ -11,6 +11,9 @@ public class MushroomUpgrade : ScriptableObject
     public Tile[] tiles;
     public int[] tileProb;
 
+    public GameObject[] toIstantiateOnPlayer;
+    public GameObject[] toInstantiateOnScene;
+
     public float RangeGround = 0.14f;
 
     public float RangeDecorations = 0.14f;

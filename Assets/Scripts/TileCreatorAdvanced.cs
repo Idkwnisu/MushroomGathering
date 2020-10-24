@@ -134,6 +134,17 @@ public class TileCreatorAdvanced : MonoBehaviour
         decorations = currentArea.tiles;
         decorationProb = currentArea.tileProb;
 
+        for(int i = 0; i < currentArea.toIstantiateOnPlayer.Length; i++)
+        {
+            GameObject go = Instantiate(currentArea.toIstantiateOnPlayer[i], player.transform);
+            go.transform.parent = player.transform;
+        }
+
+        for (int i = 0; i < currentArea.toInstantiateOnScene.Length; i++)
+        {
+            Instantiate(currentArea.toInstantiateOnScene[i], transform);
+        }
+
 
         groundMaterial.SetFloat("_Range", currentArea.RangeGround);
         groundMaterial.SetFloat("_HueAmount1", currentArea.HueAmount1Ground);
