@@ -376,7 +376,7 @@ public class TileCreatorAdvanced : MonoBehaviour
                         }
                     }
 
-                    if (!playerPositioned)
+                    if (!playerPositioned && treeContent[x, y] != 1)
                     {
                         player.transform.position = tilemap.CellToWorld(new Vector3Int(x - size / 2, y - size / 2, 0));
                         playerPositioned = true;
