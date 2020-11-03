@@ -22,8 +22,10 @@ MonoBehaviour:
   - {fileID: 5968712460293203804, guid: 35add4d5ebe06c247be06fd11e002277, type: 3}
   - {fileID: 5968712460293203804, guid: 268e631519be67a46ba897ef01284993, type: 3}
   tiles:
-  - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}
+  - {fileID: 11400000, guid: 084d44e7ef6a72a42adb632b61f5f703, type: 2}
   tileProb: 0a0000000a0000000a0000000a0000000a000000
+  toIstantiateOnPlayer: []
+  toInstantiateOnScene: []
   RangeGround: 0.4
   RangeDecorations: 0.45
   HueAmount1Ground: 0.6
@@ -32,9 +34,9 @@ MonoBehaviour:
   HueAmount2Ground: 0
   SatAmount2Ground: 0
   ValueAmount2Ground: 1
-  HueAmount1Decorations: 0.5
+  HueAmount1Decorations: 0
   SatAmount1Decorations: 0
-  ValueAmount1Decorations: 4
+  ValueAmount1Decorations: 1
   HueAmount2Decorations: 0
   SatAmount2Decorations: 0
   ValueAmount2Decorations: 1
@@ -44,3 +46,7 @@ MonoBehaviour:
   HueAmount2Trees: 0.02
   SatAmount2Trees: 0.02
   ValueAmount2Trees: 2.49
+  treeGrassLikeness: 0.05
+  treePathLikeness: 0.01
+  decorationLikeness: 0.1
+  lamppostLikeness: 0.01

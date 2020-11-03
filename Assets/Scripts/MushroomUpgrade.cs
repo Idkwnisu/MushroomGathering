@@ -40,4 +40,11 @@ public class MushroomUpgrade : ScriptableObject
     public float HueAmount2Trees;
     public float SatAmount2Trees;
     public float ValueAmount2Trees;
+
+    public float treeGrassLikeness = 0.05f;
+    public float treePathLikeness = 0.01f;
+
+    public float decorationLikeness = 0.1f;
+
+    public float lamppostLikeness = 0.01f;
 }

@@ -15,12 +15,6 @@ public class GenerationValuesManager : MonoBehaviour
 
     public int smoothFactor = 4;
 
-    public float treeGrassLikeness = 0.05f;
-    public float treePathLikeness = 0.01f;
-
-    public float decorationLikeness = 0.1f;
-
-    public float lamppostLikeness = 0.01f;
 
     public float mushroomLikeness = 0.3f;
 

@@ -49,3 +49,7 @@ MonoBehaviour:
   HueAmount2Trees: 0.41
   SatAmount2Trees: -0.65
   ValueAmount2Trees: 1
+  treeGrassLikeness: 0.05
+  treePathLikeness: 0.01
+  decorationLikeness: 0.01
+  lamppostLikeness: 0.01

@@ -109,6 +109,8 @@ public class TileCreatorAdvanced : MonoBehaviour
         size = GenerationValuesManager.Instance.size;
 
 
+        MushroomUpgrade currentArea = GenerationValuesManager.Instance.areasAvailable[GenerationValuesManager.Instance.currentAreaActive];
+
 
         nrSteps = GenerationValuesManager.Instance.nrSteps;
 
@@ -118,16 +120,14 @@ public class TileCreatorAdvanced : MonoBehaviour
 
         smoothFactor = GenerationValuesManager.Instance.smoothFactor;
 
-        treeGrassLikeness = GenerationValuesManager.Instance.treeGrassLikeness;
-        treePathLikeness = GenerationValuesManager.Instance.treePathLikeness;
+        treeGrassLikeness = currentArea.treeGrassLikeness;
+        treePathLikeness = currentArea.treePathLikeness;
 
-        decorationLikeness = GenerationValuesManager.Instance.decorationLikeness;
+        decorationLikeness = currentArea.decorationLikeness;
 
-        lamppostLikeness = GenerationValuesManager.Instance.lamppostLikeness;
+        lamppostLikeness = currentArea.lamppostLikeness;
 
         mushroomLikeness = GenerationValuesManager.Instance.mushroomLikeness;
-
-        MushroomUpgrade currentArea = GenerationValuesManager.Instance.areasAvailable[GenerationValuesManager.Instance.currentAreaActive];
 
         mushrooms = currentArea.mushrooms;
 
