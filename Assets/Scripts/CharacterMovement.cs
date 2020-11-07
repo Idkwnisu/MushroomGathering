@@ -62,8 +62,8 @@ public class CharacterMovement : MonoBehaviour
                 }
                 rb2d.velocity = rb2d.velocity * dampingVector;
             }
-
-            if (rb2d.velocity.magnitude < 0.01f)
+            
+            if(rb2d.velocity.magnitude <= 0.01f && Mathf.Abs(Ver) < 0.01f && Mathf.Abs(Hor) < 0.01f)
             {
                 animator.SetBool("Side", false);
                 animator.SetBool("Up", false);

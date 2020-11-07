@@ -28,6 +28,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9d8d86fccd0d9194b819dfba3b6af13c, type: 2}
   - {fileID: 11400000, guid: df10b2da1cd78094e95fb937b168168a, type: 2}
   tileProb: 1e000000640000000a0000001e0000000a000000
+  toIstantiateOnPlayer: []
+  toInstantiateOnScene: []
+  lamppost: {fileID: 5273171270091175052, guid: 66bb9be9ea91afa438d04c7013a40bcd,
+    type: 3}
+  dayAnimals:
+  - {fileID: 1556937139589819814, guid: 057e9cf6eeb2c8745a04d2976f3a4d79, type: 3}
+  nightAnimals:
+  - {fileID: 47751525525533481, guid: 6f54305eb1930e54eb9eaa5c07dc5476, type: 3}
   RangeGround: 0.2
   RangeDecorations: 0.3
   HueAmount1Ground: 0.81
@@ -48,3 +56,7 @@ MonoBehaviour:
   HueAmount2Trees: 0
   SatAmount2Trees: -0.27
   ValueAmount2Trees: 1
+  treeGrassLikeness: 0.05
+  treePathLikeness: 0.01
+  decorationLikeness: 0.1
+  lamppostLikeness: 0.01

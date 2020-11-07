@@ -2111,32 +2111,6 @@ Transform:
   m_Father: {fileID: 1362237152}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &249987018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2344499209706150175, guid: 79c89a9658a2ac9429e71d8be37c4872,
-    type: 3}
-  m_PrefabInstance: {fileID: 1067139577}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &249987023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249987018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AssetsPPU: 128
-  m_RefResolutionX: 400
-  m_RefResolutionY: 300
-  m_UpscaleRT: 0
-  m_PixelSnapping: 1
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!1 &251116897
 GameObject:
   m_ObjectHideFlags: 0
@@ -13530,10 +13504,6 @@ MonoBehaviour:
   nrInits: 1
   smooth: 2
   smoothFactor: 3
-  treeGrassLikeness: 0.05
-  treePathLikeness: 0.01
-  decorationLikeness: 0.05
-  lamppostLikeness: 0.01
   mushroomLikeness: 0.3
   areasAvailable: []
   startingArea: {fileID: 11400000, guid: 7ef7e2f9a4c68cf43a910618bb445447, type: 2}

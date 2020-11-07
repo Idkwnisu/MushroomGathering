@@ -14,6 +14,12 @@ public class MushroomUpgrade : ScriptableObject
     public GameObject[] toIstantiateOnPlayer;
     public GameObject[] toInstantiateOnScene;
 
+    public GameObject lamppost;
+
+    public GameObject[] dayAnimals;
+
+    public GameObject[] nightAnimals;
+
     public float RangeGround = 0.14f;
 
     public float RangeDecorations = 0.14f;

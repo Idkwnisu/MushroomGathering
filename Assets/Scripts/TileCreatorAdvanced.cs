@@ -131,6 +131,11 @@ public class TileCreatorAdvanced : MonoBehaviour
 
         mushrooms = currentArea.mushrooms;
 
+        lamppost = currentArea.lamppost;
+
+        dayAnimals = currentArea.dayAnimals;
+        nightAnimals = currentArea.nightAnimals;
+
         decorations = currentArea.tiles;
         decorationProb = currentArea.tileProb;
 
