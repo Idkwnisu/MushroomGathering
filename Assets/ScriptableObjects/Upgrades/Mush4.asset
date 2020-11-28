@@ -24,6 +24,9 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: 4023cb49bdde4014cb25424435822dcc, type: 2}
   - {fileID: 11400000, guid: e9463014e83ef7e4eaefb4285c9660dd, type: 2}
+  - {fileID: 11400000, guid: aa009f2d87dc03849a7eff5dd0ddf525, type: 2}
+  - {fileID: 11400000, guid: 827404a4752995e4785925d0f9d3ccd8, type: 2}
+  - {fileID: 11400000, guid: a2296e2b70c77e54281584d53cfe3db0, type: 2}
   tileProb: 0a0000000a0000000a0000000a0000000a000000
   toIstantiateOnPlayer: []
   toInstantiateOnScene: []
