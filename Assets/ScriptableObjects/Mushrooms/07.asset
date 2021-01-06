@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 07
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Devil's pie
+  description: Multilayered mushroom, similar to some famous pastry. It is said to
+    be deemed very worthy from demons and other dark creatures. According to myth
+    placing one of these at a crossroad will grant you one small favor
+  realLifeDescription: The original mushroom is a Laetiporus sulphureus, a yellow
+    mushroom that grows on trees. Its name came from its distinct yellow color and
+    served as inspiration for the description
   id: 7
   value: 200
   sprite: {fileID: -5082647686934749709, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

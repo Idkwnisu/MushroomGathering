@@ -24,6 +24,9 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}
   - {fileID: 11400000, guid: d83fa9590e2ca694bad27520da596ec0, type: 2}
+  - {fileID: 11400000, guid: cc2a6d2e736f83942b1d74c39430362d, type: 2}
+  - {fileID: 11400000, guid: 2d9d8fd6d05bb8d4a8888f8a491f61d5, type: 2}
+  - {fileID: 11400000, guid: c7dc0b2ebec300a428b395e077ba932d, type: 2}
   tileProb: 0a0000000a0000000a0000000a0000000a000000
   toIstantiateOnPlayer:
   - {fileID: 3986845345126114022, guid: 93d8c5672553551419496d9825e2d5ba, type: 3}

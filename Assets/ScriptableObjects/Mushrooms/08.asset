@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 08
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Writer's cap
+  description: White mushroom, its diameter secrete a black liquid filled with spores,
+    this liquid was once used as ink for writing manuscript, hence the name.
+  realLifeDescription: The mushroom that inspired this description is the Coprinus
+    comatus. Its a rather unique mushroom, with a cylinder form and a white color,
+    that quickly turns to pink and then black, secreting a black liquid that gives
+    this specie his name. If eaten soon when collected its edibility is excellent
   id: 8
   value: 200
   sprite: {fileID: -2423230811885516303, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

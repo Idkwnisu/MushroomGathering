@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 10
   m_EditorClassIdentifier: 
-  mushroomName: Brown Umbrella
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Vulture umbrella
+  description: Apparently a ver classic mushrooms, it has a peculiar characteristic
+    of usually growing on dead animals. It seems to have a prediliction for deers
+  realLifeDescription: The real life mushroom is the Pluteus cervinus, also known
+    as deer shield, due to its peculiar brown color. This mushroom in reality grows
+    on rotten logs, stumps, roots or other wood waste
   id: 10
   value: 100
   sprite: {fileID: 6155212226941906339, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
