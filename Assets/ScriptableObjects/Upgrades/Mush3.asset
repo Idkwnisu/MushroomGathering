@@ -28,7 +28,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 74f3b8bc76e26154cb08a04790203a2a, type: 2}
   - {fileID: 11400000, guid: 000990f6a7a2a92409a65491f5dd6401, type: 2}
   tileProb: 0a0000000a0000000a0000000a0000000a000000
-  toIstantiateOnPlayer: []
+  toIstantiateOnPlayer:
+  - {fileID: 3986845345126114022, guid: 22568217950a20340b1107784f87f85c, type: 3}
   toInstantiateOnScene: []
   lamppost: {fileID: 5273171270091175052, guid: a8107c44b8fd07f4980a4a6b11b2c246,
     type: 3}
@@ -39,10 +40,10 @@ MonoBehaviour:
   RangeGround: 0.4
   RangeDecorations: 0.45
   HueAmount1Ground: 0.63
-  SatAmount1Ground: -0.06
+  SatAmount1Ground: -0.25
   ValueAmount1Ground: 3.5
   HueAmount2Ground: 0
-  SatAmount2Ground: 0
+  SatAmount2Ground: -1.33
   ValueAmount2Ground: 1
   HueAmount1Decorations: 0
   SatAmount1Decorations: 0
