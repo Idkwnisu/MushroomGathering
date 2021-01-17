@@ -74,6 +74,10 @@ public class TileCreatorAdvanced : MonoBehaviour
 
     public GameObject player;
 
+    public Tile[] fenceTiles;
+
+    public Tilemap fencetilemap;
+
 
     public Vector2 mushroomRange;
 
@@ -275,10 +279,29 @@ public class TileCreatorAdvanced : MonoBehaviour
     public void DrawMap()
     {
         bool playerPositioned = false;
+
         for (int x = 0; x < size; x++)
         {
             for (int y = size - 1; y >= 0; y--)
             {
+
+                if (x == 0 && y == 0)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[5]);
+                else if (x == 0 && y == size-1)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[0]);
+                else if (x == size-1 && y == 0)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[7]);
+                else if (x == size-1 && y == size-1)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[2]);
+                else if(x == 0)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[3]);
+                else if(y == 0)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[6]);
+                else if(x == size -1)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[4]);
+                else if(y == size -1)
+                    fencetilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fenceTiles[1]);
+
                 if (content[x, y] == 1)
                 {
 
@@ -364,6 +387,131 @@ public class TileCreatorAdvanced : MonoBehaviour
                         tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fifteenTile);
                     }
 
+                    if (x == 1)
+                    {
+                        int prevContent = -1;
+                        int nextContent = -1;
+                        if(y > 0)
+                        {
+                            prevContent = content[x, y - 1];
+                        }
+                        if(y < size -1)
+                        {
+                            nextContent = content[x, y + 1];
+                        }
+
+                        if (prevContent != 1 && nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), twoTile);
+                        }
+                        else if (prevContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), threeTile);
+                        }
+                        else if (nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), sixTile);
+                        }
+                        else
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), sevenTile);
+                        }
+                    }
+                    else if(y == 1)
+                    {
+                        int prevContent = -1;
+                        int nextContent = -1;
+                        if (x > 0)
+                        {
+                            prevContent = content[x, y - 1];
+                        }
+                        if (x < size - 1)
+                        {
+                            prevContent = content[x, y + 1];
+                        }
+
+                        if (prevContent != 1 && nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fourTile);
+                        }
+                        else if (prevContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), sixTile);
+                        }
+                        else if (nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), twelveTile);
+                        }
+                        else
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), elevenTile);
+                        }
+                    }
+                    else if(x == size -2)
+                    {
+
+                        int prevContent = -1;
+                        int nextContent = -1;
+                        if (y > 0)
+                        {
+                            prevContent = content[x, y - 1];
+                        }
+                        if (y < size - 1)
+                        {
+                            prevContent = content[x, y + 1];
+                        }
+
+                        if (prevContent != 1 && nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), eightTile);
+                        }
+                        else if (prevContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), nineTile);
+                        }
+                        else if (nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), twelveTile);
+                        }
+                        else
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), thirteenTile);
+                        }
+                    }
+                    else if(x == size -2)
+                    {
+
+                        int prevContent = -1;
+                        int nextContent = -1;
+                        if (x > 0)
+                        {
+                            prevContent = content[x, y - 1];
+                        }
+                        if (x < size - 1)
+                        {
+                            prevContent = content[x, y + 1];
+                        }
+
+                        if (prevContent != 1 && nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), oneTile);
+                        }
+                        else if (prevContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), threeTile);
+                        }
+                        else if (nextContent != 1)
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), nineTile);
+                        }
+                        else
+                        {
+                            tilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), fourteenTile);
+                        }
+                    }
+
+
+
                     if (!night) //animals
                     {
                         if (Random.Range(0.0f, 1.0f) < dayAnimalLikeness)
@@ -395,7 +543,7 @@ public class TileCreatorAdvanced : MonoBehaviour
                 }
 
                 //Trees
-                if(treeContent[x, y] == 1)
+                if (treeContent[x, y] == 1)
                 {
                     if (Random.Range(0.0f, 1.0f) < mushroomLikeness)
                     {

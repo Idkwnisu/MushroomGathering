@@ -333,6 +333,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9d8d86fccd0d9194b819dfba3b6af13c, type: 2}
   - {fileID: 11400000, guid: dd0f564e607707f49bb8c68c005097c9, type: 2}
   - {fileID: 11400000, guid: da9e76600fd9dfe48a63e20748ea26d5, type: 2}
+  decorationProb: 
   size: 300
   nrSteps: 5000
   nrInits: 1
@@ -376,6 +377,15 @@ MonoBehaviour:
   dayAnimalLikeness: 0.003
   nightAnimalLikeness: 0.015
   player: {fileID: 1722858440}
+  fenceTiles:
+  - {fileID: 11400000, guid: cba0a577561e41b438d696d814d63b7b, type: 2}
+  - {fileID: 11400000, guid: 2df518dc40c392b4aa39e2e3b11c2541, type: 2}
+  - {fileID: 11400000, guid: a3451febcfd778d4599b49c70e74a0a2, type: 2}
+  - {fileID: 11400000, guid: 1fcb52b2629af1949bac7215d5590a83, type: 2}
+  - {fileID: 11400000, guid: 84c75266edadc36428b4e0487c30b67c, type: 2}
+  - {fileID: 11400000, guid: 60fbc3434f2d8244b99ef819169fe7b7, type: 2}
+  - {fileID: 11400000, guid: 76b8cec692d286544b4e0d3262c63648, type: 2}
+  - {fileID: 11400000, guid: 8e22c7d583095084e976602ceb57e5ba, type: 2}
   mushroomRange: {x: 0.2, y: 0.05}
   startPercentage: 0.05
   percentageIncrement: 0.01
