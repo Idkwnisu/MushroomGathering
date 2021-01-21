@@ -211,6 +211,8 @@ public class TileCreatorAdvanced : MonoBehaviour
             Smooth();
         }
 
+        Adjust();
+
         Ground();
 
         Trees();
@@ -755,6 +757,30 @@ public class TileCreatorAdvanced : MonoBehaviour
         }
     }
 
+    public void Adjust()
+    {
+        for (int x = 0; x < size; x++)
+        {
+            for (int y = 0; y < size; y++)
+            {
+                if (content[x, y] == 1)
+                {
+                    if (x > 0 && x < size-1 && y > 0 && y < size-1)
+                    {
+                        if (content[x + 1, y] == 0 && content[x - 1, y] == 0)
+                        {
+                            content[x - 1, y] = 1;
+                        }
+                        if (content[x, y + 1] == 0 && content[x, y - 1] == 0)
+                        {
+                            content[x, y - 1] = 1;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
     public void Trees()
     {
         for (int x = 0; x < size; x++)
