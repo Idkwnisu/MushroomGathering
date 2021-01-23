@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 13
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Power cap
+  description: Extremely hallucinogen mushroom, people who eat it reports various
+    vision like growing body parts or walking mushrooms
+  realLifeDescription: The real life mushroom is the amanita muscaria, one of the
+    most famous species in the world. Classified as poisonous, but not extremely
+    dangerous, it contains many  psychoactive principles that may result in allucinations
   id: 13
   value: 200
   sprite: {fileID: 7010617245534139418, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

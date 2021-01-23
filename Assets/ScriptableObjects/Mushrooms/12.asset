@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 12
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Brown cap
+  description: Although very common, this is still a loosely classified species,
+    due to the fact that many, very similar mushroom, exist in the wild. They are
+    usually still categorized under this name
+  realLifeDescription: 'The real mushroom is the Entoloma vernum, a brown, pointy
+    mushroom. As the game description, oftwen a lot of unnamed mushroom of the Entoloma
+    genus are recognized as Entoloma vernum '
   id: 12
   value: 120
   sprite: {fileID: -7263262467203474343, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
