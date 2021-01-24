@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 15
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Witches lunch
+  description: Black bubbly mushroom, many legends revolves around this specie, usually
+    revolving witches that uses this mushroom as a potion ingredient or a very renowned
+    food
+  realLifeDescription: The real life mushroom is the Exidia glandulosa, also called
+    black witches' butter, due to its shiny black color and its blister appearance.
+    Another theory about the name is the ancient belief that it had the power to
+    counteract witchcraft, if throw into the fire
   id: 15
   value: 200
   sprite: {fileID: -5559150632450785296, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

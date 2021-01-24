@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 16
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Blue rocket
+  description: Beautiful blue mushroom, usually found near rivers. Originally it
+    was thought that it actually fed on water, but modern studies suggest that this
+    is not really the case
+  realLifeDescription: The original mushroom is the Entoloma panniculus, unfortunately
+    not many informations can be found about this blue pointy mushroom
   id: 16
   value: 200
   sprite: {fileID: -8987557684774062561, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
