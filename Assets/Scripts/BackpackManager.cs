@@ -99,9 +99,10 @@ public class BackpackManager : MonoBehaviour
 
     IEnumerator TimeCoroutine()
     {
-
-        for(;seconds>0; seconds--)
+        while (seconds > 0)
         {
+            if (!MenuHandler.Instance.paused)
+                seconds--;
             UpdateTimeText();
             yield return new WaitForSecondsRealtime(1);
         }
