@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 17
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Red death
+  description: Very poisonous mushroom, its flesh is considered one of the hottest
+    flavour in the world. Although inedible it still inspired a lot of very spicy
+    dishes around the world
+  realLifeDescription: The real world mushroom is the Russula pseudointegra, an inedible
+    mushroom similar in appearance to Russula rosea. Like the counterpart it is noted
+    for its hot flavour
   id: 17
   value: 200
   sprite: {fileID: -6751597515445260605, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
