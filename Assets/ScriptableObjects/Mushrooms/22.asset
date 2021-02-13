@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 22
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Flower rod
+  description: Very peculiar specie, for a lot of time a lot of discussion happened
+    about its actually belonging to the mushroom category
+  realLifeDescription: The real time specie is the Anthurium, this is the only description
+    that is inspired by a plant, rather than a mushroom, due to its unusual appearance,
+    very similar to this flower
   id: 22
   value: 200
   sprite: {fileID: -2018968827443427868, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

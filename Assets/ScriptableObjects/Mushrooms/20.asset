@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 20
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Fairy umbrella
+  description: Little sky blue mushroom, protagonist of a lot of folklore legends
+    where is often associated with faeries and sprites. They say that in very rainy
+    days you can actually see some of these creatures under it
+  realLifeDescription: The real life mushroom is the Mycena interrupta, also called
+    Pixie Parasol, probably due to its very bright cyan color
   id: 20
   value: 200
   sprite: {fileID: -5717795354444781658, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

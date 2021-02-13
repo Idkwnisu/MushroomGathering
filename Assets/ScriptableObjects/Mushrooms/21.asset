@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 21
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Forest pearl
+  description: Beautiful edible mushroom, one of the most requested and appreciated
+    in every part of the world
+  realLifeDescription: The real life mushroom is the Pleurotus ostreatus, a very
+    common edible mushroom, very different from its game counterpart, but it somewhat
+    shares the cluster structure. Frequently used in various dishes around the world
   id: 21
   value: 200
   sprite: {fileID: -1722539767903399326, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
