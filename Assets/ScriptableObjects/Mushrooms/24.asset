@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 24
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Fairy candle
+  description: Peculiar mushroom with a very wax like appereance, people believed
+    it could be used as a candle if lit, in reality you would only cook it
+  realLifeDescription: The real world mushroom is the Hygrocybe conicoides, also
+    called waxcap, a very moist and common mushroom
   id: 24
   value: 180
   sprite: {fileID: -3525548655422949061, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
