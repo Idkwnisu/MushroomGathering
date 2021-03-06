@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 25
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Spongecap
+  description: Weird looking mushroom, very similar to a sponge, very moist and capable
+    to absorb a limited amount of water
+  realLifeDescription: The real life mushroom is the Morchella esculenta, a very
+    common, edible mushroom, also called sponge morel because of its appearance.
+    In reality it doens't behave like a sponge
   id: 25
   value: 200
   sprite: {fileID: -577312649904740640, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
