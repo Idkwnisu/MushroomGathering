@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 32
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Cap of youth
+  description: Big brown mushroom rather common, but with incredibile medicinal properties,
+    frequently used in a lot of homemade medicaments
+  realLifeDescription: The real life mushroom is the ganoderma lucidum, a brown,
+    lucid mushroom also called reishi. It has has a very long history of use for
+    promoting health and longevity in China, Japan, and other Asian countries. It
+    is also very present as a symbol both in and outside religion
   id: 32
   value: 200
   sprite: {fileID: -1369878811986984067, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

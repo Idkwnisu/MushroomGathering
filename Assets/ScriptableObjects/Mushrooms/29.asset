@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 29
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: Kokako cap
+  description: Beautiful little blue mushroom, its color is very similar to the plumage
+    of a beautiful bird.
+  realLifeDescription: The real life mushroom is the Entoloma hochstetteri, blue
+    little mushroom called in maori werewere-kokako, because its colour is similar
+    to the blue wattle of the kokako bird
   id: 29
   value: 200
   sprite: {fileID: 7829124088692640654, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

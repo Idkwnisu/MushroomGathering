@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1e8ff5f4c9014a8aee4a6d303f56e, type: 3}
   m_Name: 30
   m_EditorClassIdentifier: 
-  mushroomName: Name Test
-  description: This is a test description for the mushroom
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom
+  mushroomName: White death
+  description: White mushroom, extremely toxic and inedible, it is responsible for
+    the majority of fatal mushroom poisoning
+  realLifeDescription: The real life mushroom is the Amanita phalloides, very similar
+    both in appearance and in description, it's named also Death cap
   id: 30
   value: 200
   sprite: {fileID: -8000517053470610818, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
