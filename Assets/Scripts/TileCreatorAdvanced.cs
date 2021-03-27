@@ -36,6 +36,9 @@ public class TileCreatorAdvanced : MonoBehaviour
     public Tile[] decorations;
     public int[] decorationProb;
 
+    public GameObject[] bigDecorations;
+    public int[] bigDecorationsProb;
+
     private int[,] content;
     private int[,] treeContent;
 
@@ -53,6 +56,7 @@ public class TileCreatorAdvanced : MonoBehaviour
     public float treePathLikeness = 0.01f;
 
     public float decorationLikeness = 0.01f;
+    public float bigDecorationLikeness;
 
     public float lamppostLikeness = 0.01f;
 
@@ -127,8 +131,6 @@ public class TileCreatorAdvanced : MonoBehaviour
         treeGrassLikeness = currentArea.treeGrassLikeness;
         treePathLikeness = currentArea.treePathLikeness;
 
-        decorationLikeness = currentArea.decorationLikeness;
-
         lamppostLikeness = currentArea.lamppostLikeness;
 
         mushroomLikeness = GenerationValuesManager.Instance.mushroomLikeness;
@@ -142,7 +144,11 @@ public class TileCreatorAdvanced : MonoBehaviour
 
         decorations = currentArea.tiles;
         decorationProb = currentArea.tileProb;
+        bigDecorations = currentArea.bigDecorations;
+        bigDecorationsProb = currentArea.decorationProb;
 
+        decorationLikeness = currentArea.decorationLikeness;
+        bigDecorationLikeness = currentArea.bigDecorationLikeness;
         for(int i = 0; i < currentArea.toIstantiateOnPlayer.Length; i++)
         {
             GameObject go = Instantiate(currentArea.toIstantiateOnPlayer[i], player.transform);
@@ -529,6 +535,31 @@ public class TileCreatorAdvanced : MonoBehaviour
                             int nrAnimal = Random.Range(0, nightAnimals.Length);
                             GameObject animal = Instantiate(nightAnimals[nrAnimal], tilemap.CellToWorld(new Vector3Int(x - size / 2, y - size / 2, 0)), Quaternion.identity);
                         }
+                    }
+
+                    if(Random.Range(0.0f, 1.0f) < bigDecorationLikeness)
+                    {
+                        int full = 0;
+                        for (int i = 0; i < bigDecorations.Length; i++)
+                        {
+                            full += bigDecorationsProb[i];
+                        }
+                        int rnd = Random.Range(0, full);
+                        int index = 0;
+                        full = 0;
+                        for (int i = 0; i < bigDecorations.Length; i++)
+                        {
+                            if (rnd < bigDecorationsProb[i] + full)
+                            {
+                                index = i;
+                                break;
+                            }
+                            full += bigDecorationsProb[i];
+
+                         }
+                        GameObject dec = Instantiate(bigDecorations[index], tilemap.CellToWorld(new Vector3Int(x - size / 2, y - size / 2, 0)), Quaternion.identity);
+
+
                     }
 
                     if (!playerPositioned && treeContent[x, y] != 1 && x > 10 && y > 10)

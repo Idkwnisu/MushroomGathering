@@ -10,6 +10,8 @@ public class MushroomUpgrade : ScriptableObject
     public GameObject[] mushrooms;
     public Tile[] tiles;
     public int[] tileProb;
+    public GameObject[] bigDecorations;
+    public int[] decorationProb;
 
     public GameObject[] toIstantiateOnPlayer;
     public GameObject[] toInstantiateOnScene;
@@ -51,6 +53,7 @@ public class MushroomUpgrade : ScriptableObject
     public float treePathLikeness = 0.01f;
 
     public float decorationLikeness = 0.1f;
+    public float bigDecorationLikeness = 0.03f;
 
     public float lamppostLikeness = 0.01f;
 }
