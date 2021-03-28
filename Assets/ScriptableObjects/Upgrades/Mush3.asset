@@ -21,13 +21,12 @@ MonoBehaviour:
   - {fileID: 5968712460293203804, guid: 818a328c63c7ba243979241c83fd974d, type: 3}
   - {fileID: 5968712460293203804, guid: 35add4d5ebe06c247be06fd11e002277, type: 3}
   - {fileID: 5968712460293203804, guid: 268e631519be67a46ba897ef01284993, type: 3}
-  tiles:
-  - {fileID: 11400000, guid: 084d44e7ef6a72a42adb632b61f5f703, type: 2}
-  - {fileID: 11400000, guid: 8722565e9a718684bbb3d5d18a6f5b37, type: 2}
-  - {fileID: 11400000, guid: b68c78a632756e44a91c6aeb99b9f991, type: 2}
-  - {fileID: 11400000, guid: 74f3b8bc76e26154cb08a04790203a2a, type: 2}
-  - {fileID: 11400000, guid: 000990f6a7a2a92409a65491f5dd6401, type: 2}
-  tileProb: 0a0000000a0000000a0000000a0000000a000000
+  tiles: []
+  tileProb: 
+  bigDecorations:
+  - {fileID: 963819578667195046, guid: 9df210f7df61dfa44922d4777461e023, type: 3}
+  - {fileID: 5819002541499081208, guid: be4a979759199c94d8dbacbdd4cb8db7, type: 3}
+  decorationProb: 0a00000008000000
   toIstantiateOnPlayer:
   - {fileID: 3986845345126114022, guid: 22568217950a20340b1107784f87f85c, type: 3}
   toInstantiateOnScene: []
@@ -37,11 +36,11 @@ MonoBehaviour:
   - {fileID: 1556937139589819814, guid: 057e9cf6eeb2c8745a04d2976f3a4d79, type: 3}
   nightAnimals:
   - {fileID: 47751525525533481, guid: 6f54305eb1930e54eb9eaa5c07dc5476, type: 3}
-  RangeGround: 0.4
+  RangeGround: 0.42
   RangeDecorations: 0.45
-  HueAmount1Ground: 0.63
-  SatAmount1Ground: -0.25
-  ValueAmount1Ground: 3.5
+  HueAmount1Ground: -0.03
+  SatAmount1Ground: -0.24
+  ValueAmount1Ground: 1.8
   HueAmount2Ground: 0
   SatAmount2Ground: -1.33
   ValueAmount2Ground: 1
@@ -60,4 +59,5 @@ MonoBehaviour:
   treeGrassLikeness: 0.05
   treePathLikeness: 0.01
   decorationLikeness: 0.01
+  bigDecorationLikeness: 0.02
   lamppostLikeness: 0.03

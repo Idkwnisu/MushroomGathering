@@ -537,29 +537,32 @@ public class TileCreatorAdvanced : MonoBehaviour
                         }
                     }
 
-                    if(Random.Range(0.0f, 1.0f) < bigDecorationLikeness)
+                    if (bigDecorations.Length > 0)
                     {
-                        int full = 0;
-                        for (int i = 0; i < bigDecorations.Length; i++)
+                        if (Random.Range(0.0f, 1.0f) < bigDecorationLikeness)
                         {
-                            full += bigDecorationsProb[i];
-                        }
-                        int rnd = Random.Range(0, full);
-                        int index = 0;
-                        full = 0;
-                        for (int i = 0; i < bigDecorations.Length; i++)
-                        {
-                            if (rnd < bigDecorationsProb[i] + full)
+                            int full = 0;
+                            for (int i = 0; i < bigDecorations.Length; i++)
                             {
-                                index = i;
-                                break;
+                                full += bigDecorationsProb[i];
                             }
-                            full += bigDecorationsProb[i];
+                            int rnd = Random.Range(0, full);
+                            int index = 0;
+                            full = 0;
+                            for (int i = 0; i < bigDecorations.Length; i++)
+                            {
+                                if (rnd < bigDecorationsProb[i] + full)
+                                {
+                                    index = i;
+                                    break;
+                                }
+                                full += bigDecorationsProb[i];
 
-                         }
-                        GameObject dec = Instantiate(bigDecorations[index], tilemap.CellToWorld(new Vector3Int(x - size / 2, y - size / 2, 0)), Quaternion.identity);
+                            }
+                            GameObject dec = Instantiate(bigDecorations[index], tilemap.CellToWorld(new Vector3Int(x - size / 2, y - size / 2, 0)), Quaternion.identity);
 
 
+                        }
                     }
 
                     if (!playerPositioned && treeContent[x, y] != 1 && x > 10 && y > 10)
@@ -610,7 +613,7 @@ public class TileCreatorAdvanced : MonoBehaviour
                     }
                     
                 }
-                else if(treeContent[x, y] > 1)//decoration
+                else if(treeContent[x, y] > 1 && decorations.Length > 0)//decoration
                 {
                     decorationTilemap.SetTile(new Vector3Int(x - size / 2, y - size / 2, 0), decorations[treeContent[x,y]-2]);
                 }
@@ -876,7 +879,7 @@ public class TileCreatorAdvanced : MonoBehaviour
                     availableToDecor = true;
                 }
 
-                if (availableToDecor)
+                if (availableToDecor && decorations.Length > 0)
                 {
                     if(Random.Range(0.0f, 1.0f) < decorationLikeness)
                     {
