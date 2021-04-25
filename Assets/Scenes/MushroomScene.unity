@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -284,7 +284,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -469,6 +469,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dd0f564e607707f49bb8c68c005097c9, type: 2}
   - {fileID: 11400000, guid: da9e76600fd9dfe48a63e20748ea26d5, type: 2}
   decorationProb: 
+  bigDecorations: []
+  bigDecorationsProb: 
   size: 300
   nrSteps: 5000
   nrInits: 1
@@ -477,6 +479,7 @@ MonoBehaviour:
   treeGrassLikeness: 0.05
   treePathLikeness: 0.01
   decorationLikeness: 0.008
+  bigDecorationLikeness: 0
   lamppostLikeness: 0.01
   mushroomLikeness: 0.3
   treeTile:
@@ -827,7 +830,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 6
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -1118,7 +1121,7 @@ Grid:
   m_GameObject: {fileID: 775255835}
   m_Enabled: 1
   m_CellSize: {x: 1, y: 1, z: 0}
-  m_CellGap: {x: -0.01, y: -0.01, z: 0}
+  m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
 --- !u!4 &775255837
@@ -2024,6 +2027,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2344499209937861889, guid: 79c89a9658a2ac9429e71d8be37c4872,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2344499209937861889, guid: 79c89a9658a2ac9429e71d8be37c4872,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2039,6 +2047,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2344499209937861889, guid: 79c89a9658a2ac9429e71d8be37c4872,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2344499209937861889, guid: 79c89a9658a2ac9429e71d8be37c4872,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -2051,16 +2064,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2344499209937861889, guid: 79c89a9658a2ac9429e71d8be37c4872,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2344499209937861889, guid: 79c89a9658a2ac9429e71d8be37c4872,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2344499209937861889, guid: 79c89a9658a2ac9429e71d8be37c4872,
         type: 3}

@@ -25,8 +25,10 @@ MonoBehaviour:
   tileProb: 
   bigDecorations:
   - {fileID: 963819578667195046, guid: 9df210f7df61dfa44922d4777461e023, type: 3}
-  - {fileID: 5819002541499081208, guid: be4a979759199c94d8dbacbdd4cb8db7, type: 3}
-  decorationProb: 0a00000008000000
+  - {fileID: 2713104768909370050, guid: 5790e1c8103e79e46a93797d74507cbb, type: 3}
+  - {fileID: 9198069243206530684, guid: 64149bd0301e30a4cb198b39f8f77f2b, type: 3}
+  - {fileID: 5718948864971401828, guid: 07101e8971c209747a56824dbea3944b, type: 3}
+  decorationProb: 0f000000020000000100000008000000
   toIstantiateOnPlayer:
   - {fileID: 3986845345126114022, guid: 22568217950a20340b1107784f87f85c, type: 3}
   toInstantiateOnScene: []

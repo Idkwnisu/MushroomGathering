@@ -24,10 +24,12 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: b7a98b917f9c1924ca3e8e98e0d80b04, type: 2}
   - {fileID: 11400000, guid: 691a089e786f9ce43a942f8cab867d82, type: 2}
-  - {fileID: 11400000, guid: 4ac49049063efd945a31f1ff43c8a492, type: 2}
   - {fileID: 11400000, guid: 9d8d86fccd0d9194b819dfba3b6af13c, type: 2}
-  - {fileID: 11400000, guid: df10b2da1cd78094e95fb937b168168a, type: 2}
-  tileProb: 1e000000640000000a0000001e0000000a000000
+  tileProb: 1e000000640000000a000000
+  bigDecorations:
+  - {fileID: 83882349716957076, guid: 61b12141d8d5122469914021bb90a4be, type: 3}
+  - {fileID: 878835837172411759, guid: 8d05b2132403e96419d280396a9c470a, type: 3}
+  decorationProb: 0a00000004000000
   toIstantiateOnPlayer:
   - {fileID: 3986845345126114022, guid: 08b533c7edc58e24cb7373c24318de69, type: 3}
   toInstantiateOnScene: []
@@ -60,4 +62,5 @@ MonoBehaviour:
   treeGrassLikeness: 0.05
   treePathLikeness: 0.01
   decorationLikeness: 0.1
+  bigDecorationLikeness: 0.005
   lamppostLikeness: 0.01

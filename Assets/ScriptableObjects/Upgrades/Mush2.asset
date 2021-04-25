@@ -21,12 +21,16 @@ MonoBehaviour:
   - {fileID: 5968712460293203804, guid: f8f5ed2c25f3a45408251d56a6ab82b2, type: 3}
   - {fileID: 5968712460293203804, guid: f57065bcff2f5884d9b5f53e22193c10, type: 3}
   - {fileID: 5968712460293203804, guid: 1f2e4249b4beefc4b8323d626f70f716, type: 3}
-  tiles:
-  - {fileID: 11400000, guid: 421f2a68d6509bf4690537ede20d728b, type: 2}
-  - {fileID: 11400000, guid: 1548c1f5910294c45aa0734b210d5c1c, type: 2}
-  - {fileID: 11400000, guid: 2c11d81550872344aba7be4d0af5ebea, type: 2}
-  - {fileID: 11400000, guid: 5fdf0968e1471e240ad1e4be88954e13, type: 2}
-  tileProb: 0a0000000a0000000a0000000a0000000a000000
+  tiles: []
+  tileProb: 
+  bigDecorations:
+  - {fileID: 4930194442959433644, guid: a093eef602baa074aa9ecd9467053a5b, type: 3}
+  - {fileID: 2646353745906011631, guid: c5be43019d50c6e4895bedff97c7073f, type: 3}
+  - {fileID: 1674701162307056594, guid: 28fa353cddd5a3b4585a6c49afb64890, type: 3}
+  - {fileID: 8713960989633597273, guid: b8b64d204347b324ebe77ce378152876, type: 3}
+  - {fileID: 5896346999603292361, guid: 607290437c4c01041949ac7b6c3afb5b, type: 3}
+  - {fileID: 7425431139754150088, guid: efbc3671e22ce9b418a72da0dab83398, type: 3}
+  decorationProb: 0a0000001400000001000000030000000800000003000000
   toIstantiateOnPlayer: []
   toInstantiateOnScene: []
   lamppost: {fileID: 5273171270091175052, guid: 66bb9be9ea91afa438d04c7013a40bcd,
@@ -57,5 +61,6 @@ MonoBehaviour:
   ValueAmount2Trees: 1
   treeGrassLikeness: 0.05
   treePathLikeness: 0.01
-  decorationLikeness: 0.01
+  decorationLikeness: 0
+  bigDecorationLikeness: 0.015
   lamppostLikeness: 0.01
