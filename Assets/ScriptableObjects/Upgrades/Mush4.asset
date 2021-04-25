@@ -26,10 +26,9 @@ MonoBehaviour:
   bigDecorations:
   - {fileID: 8143519927053027881, guid: 057e7c2b782bd0e48b02165d9e430152, type: 3}
   - {fileID: 156665299108524020, guid: 081c5e8bae0f3e749b39c08ac493017e, type: 3}
-  - {fileID: 9144632288770024653, guid: 467a56011f2b6a24fb05bec176674b2c, type: 3}
   - {fileID: 5501634269302559951, guid: b283adb7abc50eb46af544d8135c1571, type: 3}
   - {fileID: 8233265581991491070, guid: 3dba426ecc376f647a774b265e203cbd, type: 3}
-  decorationProb: 0800000009000000020000000a0000000c000000
+  decorationProb: 0800000009000000070000000a000000
   toIstantiateOnPlayer: []
   toInstantiateOnScene: []
   lamppost: {fileID: 5273171270091175052, guid: 66bb9be9ea91afa438d04c7013a40bcd,
