@@ -703,25 +703,25 @@ public class TileCreatorAdvanced : MonoBehaviour
             }
 
 
-            if (xStartPos < 0)
+            if (xStartPos < 5)
             {
-                xStartPos = 0;
+                xStartPos = 5;
                 direction.x *= -1;
             }
-            if (xStartPos >= size)
+            if (xStartPos >= size-5)
             {
-                xStartPos = size - 1;
+                xStartPos = size - 6;
                 direction.x *= -1;
             }
 
-            if (yStartPos < 0)
+            if (yStartPos < 5)
             {
-                yStartPos = 0;
+                yStartPos = 5;
                 direction.y *= -1;
             }
-            if (yStartPos >= size)
+            if (yStartPos >= size-5)
             {
-                yStartPos = size - 1;
+                yStartPos = size - 6;
                 direction.y *= -1;
             }
 

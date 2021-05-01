@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: b7fc0bd4c83b4494e8f5fa66796c7ed1, type: 2}
   active: 0
+  gatheringSpeed: 10
 --- !u!61 &6326718529843729942
 BoxCollider2D:
   m_ObjectHideFlags: 0

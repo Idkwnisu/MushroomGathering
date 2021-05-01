@@ -31,6 +31,7 @@ public class ScenesStarter : MonoBehaviour
 
     public void StartWithArea(int area)
     {
+        Time.timeScale = 1.0f;
         GenerationValuesManager.Instance.currentAreaActive = area;
         StartMushroomScene();
     }

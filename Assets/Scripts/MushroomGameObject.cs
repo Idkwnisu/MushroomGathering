@@ -7,6 +7,15 @@ public class MushroomGameObject : MonoBehaviour
     public Mushroom data;
 
     public bool active = false;
+    public float gatheringSpeed = 10.0f;
+
+    private Transform player;
+    
+    private bool gathering = false;
+    private float gatheringAmount = 0.0f;
+
+    private Vector3 positionStart;
+    private Vector3 scaleStart;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,14 +25,36 @@ public class MushroomGameObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(gathering)
+        {
+            gatheringAmount += gatheringSpeed * Time.deltaTime;
+            if(gatheringAmount >= 1.0f)
+            {
+                BackpackManager.Instance.AddMushroom(data);
+                Destroy(gameObject);
+            }
+            else
+            {
+                transform.position = positionStart + gatheringAmount * (player.position - transform.position);
+                transform.localScale = scaleStart - scaleStart * gatheringAmount;
+            }
+        }
+
         if(active)
         {
             if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump") || Input.GetButtonDown("Submit"))
             {
                 if (!BackpackManager.Instance.full)
                 {
-                    BackpackManager.Instance.AddMushroom(data);
-                    Destroy(gameObject);
+                    
+                    gathering = true;
+                    BoxCollider2D[] colliders = GetComponents<BoxCollider2D>();
+                    for(int i = 0; i < colliders.Length; i++)
+                    {
+                        colliders[i].enabled = false;
+                    }
+                    positionStart = transform.position;
+                    scaleStart = transform.localScale;
                 }
             }
         }
@@ -35,6 +66,7 @@ public class MushroomGameObject : MonoBehaviour
         {
             active = true;
             BackpackManager.Instance.changeTake(true);
+            player = col.gameObject.transform;
         }
     }
 
