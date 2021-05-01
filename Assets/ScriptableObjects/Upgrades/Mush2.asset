@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mush2
   m_EditorClassIdentifier: 
   upgradeName: Unlock Iron Dust Path
-  cost: 1
+  cost: 15000
   mushrooms:
   - {fileID: 5968712460293203804, guid: 8e743a1aa3cb66d4cb19757af02906d6, type: 3}
   - {fileID: 5968712460293203804, guid: 22745b861833a814da45214537c0750e, type: 3}

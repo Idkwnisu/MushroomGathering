@@ -26,11 +26,37 @@ public class MushroomEncyclopedia : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (mushroomCollection == null)
+        {
+            mushroomCollection = new Dictionary<Mushroom, int>();
+            for (int i = 0; i < mushrooms.Length; i++)
+            {
+                mushroomCollection.Add(mushrooms[i], 0);
+            }
+        }
+    }
+
+    public void LoadMushrooms(List<int> mushroomPicked)
+    {
+
         mushroomCollection = new Dictionary<Mushroom, int>();
+
+        for (int i = 0; i < mushroomPicked.Count; i++)
+        {
+            mushroomCollection[mushrooms[i]] = mushroomPicked[i];
+        }
+        MushroomEncyclopediaManager.Instance.UpdateSprites();
+        MushroomEncyclopediaManager.Instance.UpdateRooms();
+    }
+
+    public List<int> SaveMushrooms()
+    {
+        List<int> toReturn = new List<int>();
         for(int i = 0; i < mushrooms.Length; i++)
         {
-            mushroomCollection.Add(mushrooms[i], 0);
+            toReturn.Add(mushroomCollection[mushrooms[i]]);
         }
+        return toReturn;
     }
 
     // Update is called once per frame

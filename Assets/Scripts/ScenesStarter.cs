@@ -8,7 +8,10 @@ public class ScenesStarter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(SaveManager.Instance.loadGame)
+        {
+            SaveManager.Instance.LoadGame();
+        }
     }
 
     // Update is called once per frame

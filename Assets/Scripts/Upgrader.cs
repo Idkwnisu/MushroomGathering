@@ -35,14 +35,7 @@ public class Upgrader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-            Save();
-        }
-        if(Input.GetKeyDown(KeyCode.L))
-        {
-            Load();
-        }
+
     }
 
     public void Save()

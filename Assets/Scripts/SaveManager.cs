@@ -19,6 +19,7 @@ public class SaveManager : MonoBehaviour
 
     public int currentOwnedTime = 0;
 
+    public bool loadGame = false;
 
     private void Awake()
     {
@@ -46,6 +47,7 @@ public class SaveManager : MonoBehaviour
         state.mushroomUpgrades = currentOwnedMushroom;
         state.backpackUpgrades = currentOwnedBackpack;
         state.timeUpgrades = currentOwnedTime;
+        state.mushroomPicked = MushroomEncyclopedia.Instance.SaveMushrooms();
 
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Create(Application.persistentDataPath + "/savefile.save");
@@ -64,6 +66,7 @@ public class SaveManager : MonoBehaviour
             currentOwnedMushroom = state.mushroomUpgrades;
             currentOwnedBackpack = state.backpackUpgrades;
             currentOwnedTime = state.timeUpgrades;
+            MushroomEncyclopedia.Instance.LoadMushrooms(state.mushroomPicked);
         }
 
     }
@@ -71,5 +74,10 @@ public class SaveManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public bool ExistSavefile()
+    {
+        return (File.Exists(Application.persistentDataPath + "/savefile.save"));
     }
 }

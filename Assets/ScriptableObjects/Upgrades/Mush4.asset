@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mush4
   m_EditorClassIdentifier: 
   upgradeName: Unlock Lazy River
-  cost: 1
+  cost: 50000
   mushrooms:
   - {fileID: 5968712460293203804, guid: 4b173683da7b1e04aae8ecc13e7612ea, type: 3}
   - {fileID: 5968712460293203804, guid: fdd7570f103282a41aa0e0dbc5c549cf, type: 3}

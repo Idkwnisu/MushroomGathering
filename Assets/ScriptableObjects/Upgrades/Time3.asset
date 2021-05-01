@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Time3
   m_EditorClassIdentifier: 
   upgradeName: Buy more time(+30 seconds)
-  cost: 1
+  cost: 15000
   newSeconds: 210

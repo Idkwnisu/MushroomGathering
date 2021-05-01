@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Back3
   m_EditorClassIdentifier: 
   upgradeName: Buy new backpack (+1 slot)
-  cost: 1
+  cost: 35000
   newSize: 8

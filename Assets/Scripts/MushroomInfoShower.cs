@@ -49,7 +49,7 @@ public class MushroomInfoShower : MonoBehaviour
         }
         else
         {
-            realLifeDescription.text = "Gather " + numRealLifeDescriptionUnlock + " times to unlock real life inspiration";
+            realLifeDescription.text = "Gather " + numRealLifeDescriptionUnlock + " times to unlock the description of a real mushroom related";
         }
     }
 

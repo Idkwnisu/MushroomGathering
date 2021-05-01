@@ -118,6 +118,7 @@ public class BackpackManager : MonoBehaviour
    public void ChangeScene()
     {
         InventoryManager.Instance.SellMushrooms(mushroomsTaken, mushroomNr);
+        SaveManager.Instance.SaveGame();
         SceneManager.LoadScene("StartScene");
     }
 }

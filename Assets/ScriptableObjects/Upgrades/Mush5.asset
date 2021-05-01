@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mush5
   m_EditorClassIdentifier: 
   upgradeName: Unlock Ice Cream Summit
-  cost: 1
+  cost: 85000
   mushrooms:
   - {fileID: 5968712460293203804, guid: c2512085b6ddd2549998b4de4af14374, type: 3}
   - {fileID: 5968712460293203804, guid: 302712ec068e0044f8e1f96542f9fa54, type: 3}

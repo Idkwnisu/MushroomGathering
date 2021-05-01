@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mush1
   m_EditorClassIdentifier: 
   upgradeName: Unlock Eternal Fall Forest
-  cost: 1
+  cost: 4000
   mushrooms:
   - {fileID: 5968712460293203804, guid: 3b92ce0a7660cb74a8be84e8c59c53b0, type: 3}
   - {fileID: 5968712460293203804, guid: a6c297872e0345a4bbfd8b82587b5929, type: 3}

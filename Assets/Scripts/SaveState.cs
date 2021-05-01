@@ -10,7 +10,7 @@ public class SaveState
     public int backpackUpgrades = 0;
     public int timeUpgrades = 0;
 
-    //public List<int> mushroomPicked = new List<int> mushroomPicked;
+    public List<int> mushroomPicked = new List<int>();
     // Start is called before the first frame update
     void Start()
     {
