@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   mushroomName: Angel cap
-  description: One of the most collected mushrooms, often searched for its supposedly
-    magical healing powers. Legends say that you can always see the sun reflected
+  description: One of the most desired mushrooms, often priced for its supposedly
+    healing powers. Legends say that it's always possible to see the sun reflected
     on its surface, even on a cloudy day
   realLifeDescription: This mushroom is inspired to the Agaricus subrufescens. It
-    has various names such as mushroom of the sun and mushroom of God. It was used
+    has various names, like mushroom of the sun and mushroom of God. It was used
     as medicine in traditional practices, althought its effects have not been proven
-    by modern medicine. Preliminary reserches suggest possible toxic effects
+    by modern medicine.
   id: 1
   value: 100
   sprite: {fileID: 6128299156075563123, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

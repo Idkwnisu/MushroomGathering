@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Canary knight
   description: 'Little yellow mushroom, its spores are poisonous to some predator
-    species, so some little animals, mostly insect, use it as a protection. '
+    species. For this reason, some little animals, mostly insect, use it as a protection. '
   realLifeDescription: The real life inspiration is the Pluteus chrysophaeus, also
     called yellow shield, because of its shape. It is wide distributed in north america
-    and its bright colors make it stand out a lot. It is not edible
+    and it's characterized by very bright colors. It is not edible.
   id: 2
   value: 120
   sprite: {fileID: 3386662938922423588, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

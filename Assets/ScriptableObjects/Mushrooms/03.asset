@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   mushroomName: Bloody Cap
-  description: This mushroom is extremely toxic and dangerous to eat when raw. It's
-    possible to eat it cooked, but usually it is advised to not take the risk. Legends
-    say that its red colour is from the blood its victims vomits when they eat it
+  description: Peculiar mushroom, extremely toxic when eaten raw. It's possible to
+    eat it cooked, but it's usually advised to avoid it. Legends say that it takes
+    its color from its victim's blood
   realLifeDescription: The real mushroom is called Russula Emetica. Very common in
     the northen regions, it was widely eaten in Russia and European Countries. Its
     common names(Sickener or vomiting russula) come from the distress it can cause
-    when consumed raw and its raw flavour is extremely peppery. Can be made edible
-    by boiling or pickling.
+    when consumed raw. Can be made edible by boiling or pickling.
   id: 3
   value: 140
   sprite: {fileID: -6110656803992641779, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
