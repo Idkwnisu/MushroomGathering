@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Lion hazelnut
   description: Unique mushroom vaguely similar to an hazelnut. Inside it is formed
-    from various little tubes that seems like a beard or a Lion mane.
-  realLifeDescription: The mushroom that vaguely inspired this description is the
-    Hericium erinaceus, an edible fungus that belongs to the tooth fungus group.
-    It can be usually found on hardwood and it is formed by a single of dangling
-    spines.
+    from various little tubes that make it seems like a beard or a Lion's mane.
+  realLifeDescription: The mushroom that inspired this description is the Hericium
+    erinaceus, an edible fungus that belongs to the tooth fungus group. It can be
+    usually found on hardwood and it is formed by a single of dangling spines.
   id: 9
   value: 200
   sprite: {fileID: 1211998406744890917, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

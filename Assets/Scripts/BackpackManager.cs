@@ -87,6 +87,7 @@ public class BackpackManager : MonoBehaviour
             endPanel.SetActive(true);
             endText.text = "Backpack is full";
             end = true;
+            AudioManager.Instance.PlaySound("end");
 
             Invoke("ChangeScene", changeDelay);
         }
@@ -111,7 +112,7 @@ public class BackpackManager : MonoBehaviour
         endPanel.SetActive(true);
         endText.text = "Time Over";
         end = true;
-
+        AudioManager.Instance.PlaySound("end");
         Invoke("ChangeScene", changeDelay);
     }
 

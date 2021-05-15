@@ -48,6 +48,7 @@ public class MushroomShower : MonoBehaviour
         {
             panel.SetActive(false);
             showing = false;
+            AudioManager.Instance.PlaySound("sell");
         }
     }
 }

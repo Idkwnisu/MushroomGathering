@@ -48,6 +48,7 @@ public class MushroomGameObject : MonoBehaviour
                 {
                     
                     gathering = true;
+                    AudioManager.Instance.PlaySound("gather"); // a bit coupled, but we have so few istances that it would be just a time loss to decouple it
                     BoxCollider2D[] colliders = GetComponents<BoxCollider2D>();
                     for(int i = 0; i < colliders.Length; i++)
                     {

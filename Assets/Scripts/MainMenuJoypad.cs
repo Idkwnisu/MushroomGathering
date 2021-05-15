@@ -16,11 +16,11 @@ public class MainMenuJoypad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") || Input.GetAxis("Vertical") < 0.02f)
+        if (Input.GetButtonDown("Fire1") || Input.GetAxis("Vertical") > 0.02f)
         {
             firstButton.Select();
         }
-        else if(Input.GetAxis("Vertical") > 0.02f)
+        else if(Input.GetAxis("Vertical") < -0.02f)
         {
             secondButton.Select();
         }

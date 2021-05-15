@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Devil's pie
   description: Multilayered mushroom, similar to some famous pastry. It is said to
-    be deemed very worthy from demons and other dark creatures. According to myth
-    placing one of these at a crossroad will grant you one small favor
+    be deemed very worthy from demons. According to myth, placing one of these at
+    a crossroad will grant you one small favor from a dark entity
   realLifeDescription: The original mushroom is a Laetiporus sulphureus, a yellow
-    mushroom that grows on trees. Its name came from its distinct yellow color and
-    served as inspiration for the description
+    mushroom that grows on trees. Its name came from its distinct yellow color similar
+    to sulfur, usually associated with demons
   id: 7
   value: 200
   sprite: {fileID: -5082647686934749709, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

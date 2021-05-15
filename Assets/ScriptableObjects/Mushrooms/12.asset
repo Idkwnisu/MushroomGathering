@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Brown cap
   description: Although very common, this is still a loosely classified species,
-    due to the fact that many, very similar mushroom, exist in the wild. They are
+    due to the fact that many similar mushroom exist in the wild. All of them are
     usually still categorized under this name
   realLifeDescription: 'The real mushroom is the Entoloma vernum, a brown, pointy
     mushroom. As the game description, oftwen a lot of unnamed mushroom of the Entoloma

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Green phantom
   description: Cute little green mushroom, unfortunately used as symbol by some separatist
-    political groups, not much is known of the culinary properties of this specie
+    political parties, not much is known of the culinary properties of this specie
   realLifeDescription: Inspired by the Cortinarius austrovenetus, originally belonging
-    to a huge subgenus called Cortinarius, not it has been separated from that and
-    added in the new genus Dermocybe, commonly called skin-heads. According to wikipedia
-    its edible properties are not known
+    to a huge subgenus called Cortinarius, now it has been added in the new genus
+    Dermocybe, commonly called skin-heads. According to wikipedia its edible properties
+    are not known
   id: 6
   value: 180
   sprite: {fileID: 6813553822765877458, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

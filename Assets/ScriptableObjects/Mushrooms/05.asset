@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   mushroomName: Celebral cap
-  description: Pretty toxic mushroom, its shape is simular to a little brain. Legends
-    says that if you are able to eat it raw and survive it will grant you marvelous
-    psychic abilities, ranging from telekinesis to telepathy
+  description: Very toxic mushroom, its shape recals a little brain. Legends says
+    that if you are able to eat it raw and survive it will grant you psychic abilities.
+    It is strongly disadvised to try.
   realLifeDescription: This mushroom is inspired by the Gyromitra Esculenta.  Known
-    with various names such as "brain mushroom" and "elephant ears". It is edible
-    only when cooked, very dangerous if consumed raw. For this reason in some places
-    of the world they are illegal to sell
+    with various names such as "brain mushroom" and "elephant ears" this mushroom
+    is very dangerous if consumed raw and for this reason in some places of the world
+    it's illegal to sell them
   id: 5
   value: 150
   sprite: {fileID: 6708733205153277002, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
