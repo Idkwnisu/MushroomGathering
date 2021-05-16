@@ -19,5 +19,5 @@ MonoBehaviour:
     the mushroom is the Amanita frostiana, a bright yellow mushroom native to America.
     Nothing much notable is known about this specie
   id: 33
-  value: 200
+  value: 250
   sprite: {fileID: 2737844872717370115, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

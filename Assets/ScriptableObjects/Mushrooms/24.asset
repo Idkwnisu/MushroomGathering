@@ -18,5 +18,5 @@ MonoBehaviour:
   realLifeDescription: The real world mushroom is the Hygrocybe conicoides, also
     called waxcap, a very moist and common mushroom
   id: 24
-  value: 180
+  value: 160
   sprite: {fileID: -3525548655422949061, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

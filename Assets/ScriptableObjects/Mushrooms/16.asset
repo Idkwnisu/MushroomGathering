@@ -19,5 +19,5 @@ MonoBehaviour:
   realLifeDescription: The original mushroom is the Entoloma panniculus, unfortunately
     not many informations can be found about this blue pointy mushroom
   id: 16
-  value: 200
+  value: 750
   sprite: {fileID: -8987557684774062561, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

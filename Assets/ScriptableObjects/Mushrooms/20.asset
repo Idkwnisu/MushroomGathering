@@ -19,5 +19,5 @@ MonoBehaviour:
   realLifeDescription: The real life mushroom is the Mycena interrupta, also called
     Pixie Parasol, probably due to its very bright cyan color
   id: 20
-  value: 200
+  value: 1000
   sprite: {fileID: -5717795354444781658, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

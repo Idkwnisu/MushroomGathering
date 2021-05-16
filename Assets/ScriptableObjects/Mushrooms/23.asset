@@ -19,5 +19,5 @@ MonoBehaviour:
     the Amethyst deceiver a bright violet mushroom called like that because it tends
     to fade and wither with age, making it difficult to recognize.
   id: 23
-  value: 200
+  value: 1100
   sprite: {fileID: 3950689983899740486, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

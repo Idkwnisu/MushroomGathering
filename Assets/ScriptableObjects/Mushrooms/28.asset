@@ -20,5 +20,5 @@ MonoBehaviour:
     floccopus, also called old man of the woods. Its color is slightly lighter and
     it has white gills on its cap, but it still looks old and worn out
   id: 28
-  value: 200
+  value: 430
   sprite: {fileID: 2414474533063011785, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

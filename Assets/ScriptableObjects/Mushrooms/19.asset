@@ -19,5 +19,5 @@ MonoBehaviour:
     few actually blue species.Almost identical to the Stropharia aeruginosa, it's
     almost impossible to distinguish them without a microscope
   id: 19
-  value: 200
+  value: 800
   sprite: {fileID: -2408033011751398356, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

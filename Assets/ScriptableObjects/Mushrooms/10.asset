@@ -19,5 +19,5 @@ MonoBehaviour:
     as deer shield, due to its peculiar brown color. This mushroom in reality grows
     on rotten logs, stumps, roots or other wood waste
   id: 10
-  value: 100
+  value: 80
   sprite: {fileID: 6155212226941906339, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

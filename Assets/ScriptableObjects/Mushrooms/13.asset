@@ -19,5 +19,5 @@ MonoBehaviour:
     most famous species in the world. Classified as poisonous, but not extremely
     dangerous, it contains many  psychoactive principles that may result in allucinations
   id: 13
-  value: 200
+  value: 280
   sprite: {fileID: 7010617245534139418, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

@@ -19,5 +19,5 @@ MonoBehaviour:
     the mushroom is the Lactarius indigo, a widely distributed, edible mushroom,
     with a distinct blue color.
   id: 34
-  value: 200
+  value: 900
   sprite: {fileID: -4056437433907239288, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

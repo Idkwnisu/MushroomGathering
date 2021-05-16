@@ -19,5 +19,5 @@ MonoBehaviour:
     common edible mushroom, very different from its game counterpart, but it somewhat
     shares the cluster structure. Frequently used in various dishes around the world
   id: 21
-  value: 200
+  value: 380
   sprite: {fileID: -1722539767903399326, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

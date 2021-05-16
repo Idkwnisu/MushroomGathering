@@ -20,5 +20,5 @@ MonoBehaviour:
     Dermocybe, commonly called skin-heads. According to wikipedia its edible properties
     are not known
   id: 6
-  value: 180
+  value: 550
   sprite: {fileID: 6813553822765877458, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

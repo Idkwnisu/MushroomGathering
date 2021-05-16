@@ -20,5 +20,5 @@ MonoBehaviour:
     Its name means "the violet curtain-stool". It is sometimes considered edible,
     although very bitter
   id: 36
-  value: 200
+  value: 770
   sprite: {fileID: 286243765835191086, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

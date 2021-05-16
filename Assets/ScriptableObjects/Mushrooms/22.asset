@@ -19,5 +19,5 @@ MonoBehaviour:
     that is inspired by a plant, rather than a mushroom, due to its unusual appearance,
     very similar to this flower
   id: 22
-  value: 200
+  value: 500
   sprite: {fileID: -2018968827443427868, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

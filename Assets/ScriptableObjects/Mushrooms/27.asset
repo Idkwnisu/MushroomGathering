@@ -19,5 +19,5 @@ MonoBehaviour:
     puffball. Very similar in appearance, it's actually white in color. It actually
     releases spores when compressed and covered in little spikes
   id: 27
-  value: 190
+  value: 170
   sprite: {fileID: 4172163778452043772, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

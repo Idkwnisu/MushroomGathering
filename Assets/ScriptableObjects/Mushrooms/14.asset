@@ -21,5 +21,5 @@ MonoBehaviour:
     it was very rare, until an outbreak of a disease made its food source, rotten
     elm, much more frequent
   id: 14
-  value: 200
+  value: 320
   sprite: {fileID: -7039003182478323700, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

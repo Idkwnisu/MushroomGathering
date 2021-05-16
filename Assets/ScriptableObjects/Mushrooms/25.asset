@@ -19,5 +19,5 @@ MonoBehaviour:
     common, edible mushroom, also called sponge morel because of its appearance.
     In reality it doens't behave like a sponge
   id: 25
-  value: 200
+  value: 380
   sprite: {fileID: -577312649904740640, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

@@ -20,5 +20,5 @@ MonoBehaviour:
     mushroom that grows on trees. Its name came from its distinct yellow color similar
     to sulfur, usually associated with demons
   id: 7
-  value: 200
+  value: 700
   sprite: {fileID: -5082647686934749709, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

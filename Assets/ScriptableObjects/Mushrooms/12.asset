@@ -20,5 +20,5 @@ MonoBehaviour:
     mushroom. As the game description, oftwen a lot of unnamed mushroom of the Entoloma
     genus are recognized as Entoloma vernum '
   id: 12
-  value: 120
+  value: 140
   sprite: {fileID: -7263262467203474343, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

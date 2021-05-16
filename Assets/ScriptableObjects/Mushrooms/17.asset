@@ -20,5 +20,5 @@ MonoBehaviour:
     mushroom similar in appearance to Russula rosea. Like the counterpart it is noted
     for its hot flavour
   id: 17
-  value: 200
+  value: 220
   sprite: {fileID: -6751597515445260605, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

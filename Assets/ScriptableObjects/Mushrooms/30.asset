@@ -18,5 +18,5 @@ MonoBehaviour:
   realLifeDescription: The real life mushroom is the Amanita phalloides, very similar
     both in appearance and in description, it's named also Death cap
   id: 30
-  value: 200
+  value: 1200
   sprite: {fileID: -8000517053470610818, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

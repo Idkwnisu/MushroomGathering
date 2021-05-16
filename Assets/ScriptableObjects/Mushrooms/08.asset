@@ -20,5 +20,5 @@ MonoBehaviour:
     that quickly turns to pink and then black, secreting a black liquid that gives
     this specie his name. If eaten soon when collected its edibility is excellent
   id: 8
-  value: 200
+  value: 310
   sprite: {fileID: -2423230811885516303, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

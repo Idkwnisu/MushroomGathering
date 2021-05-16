@@ -20,6 +20,6 @@ MonoBehaviour:
     Ostoyae, the most common plant-pathogenic fungus in the US. It is known as having
     grown, possibly, the largest living organism by area. It spreads mostly underground
     and in autumn it blooms, showing the bulbs
-  id: 4
+  id: 420
   value: 150
   sprite: {fileID: 8553092956536608252, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
