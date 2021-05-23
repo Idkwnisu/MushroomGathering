@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuHandler : MonoBehaviour
 {
     public Button loadGame;
+    public StartCanvasManager canvasManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,5 +33,10 @@ public class MainMenuHandler : MonoBehaviour
     {
         SaveManager.Instance.loadGame = true;
         SceneManager.LoadScene("StartScene");
+    }
+
+    public void GoBack()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

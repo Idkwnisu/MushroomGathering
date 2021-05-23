@@ -21,6 +21,9 @@ public class SaveManager : MonoBehaviour
 
     public bool loadGame = false;
 
+    public Vector2[] cloudStatus;
+    public int rightestCloud;
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -36,7 +39,7 @@ public class SaveManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        cloudStatus = new Vector2[4];
     }
 
     public void SaveGame()

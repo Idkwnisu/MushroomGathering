@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MushroomScene.unity
     guid: 8500d0458a001774cb232bf2c96546ad
   - enabled: 0
-    path: Assets/Scenes/StartScene.unity
+    path: 
     guid: 829ea715072a36d4b8138f4b2ef42708
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a2c85275fd8a73b42a9b2925eaa54994
   m_configObjects: {}
