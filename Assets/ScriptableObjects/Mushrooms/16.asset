@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Blue rocket
   description: Beautiful blue mushroom, usually found near rivers. Originally it
-    was thought that it actually fed on water, but modern studies suggest that this
-    is not really the case
+    was thought that it actually feeds on water, but modern studies suggest otherwise
   realLifeDescription: The original mushroom is the Entoloma panniculus, unfortunately
     not many informations can be found about this blue pointy mushroom
   id: 16

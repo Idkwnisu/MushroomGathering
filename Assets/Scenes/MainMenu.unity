@@ -458,6 +458,7 @@ MonoBehaviour:
   - {fileID: 1629224741}
   - {fileID: 646914821}
   speed: 0.6
+  load: 0
 --- !u!114 &1427040923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,11 +751,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8857d95b82ea70d4282cf57d40db9be5, type: 3}
   - {fileID: 8300000, guid: 39b17b180f742104482b1ca4c757f008, type: 3}
   - {fileID: 8300000, guid: 6fbe1a8311cbd1d48a6ddf382e058339, type: 3}
+  - {fileID: 8300000, guid: d56358da8be981c45abcb71e8886a3ae, type: 3}
   soundNames:
   - button
   - end
   - gather
   - sell
+  - buy
   musics: []
   musicNames: []
 --- !u!4 &1663450435

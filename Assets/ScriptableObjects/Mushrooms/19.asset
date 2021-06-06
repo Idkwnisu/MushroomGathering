@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Bluebell cap
   description: 'Beautiful sky blue mushroom, very precious and rare because of its
-    beauty, unfortunately inedible. '
+    beauty. Unfortunately it is inedible. '
   realLifeDescription: The real life mushroom is the stopharia caerulea, one of the
-    few actually blue species.Almost identical to the Stropharia aeruginosa, it's
+    few actually blue species. Almost identical to the Stropharia aeruginosa, it's
     almost impossible to distinguish them without a microscope
   id: 19
   value: 800

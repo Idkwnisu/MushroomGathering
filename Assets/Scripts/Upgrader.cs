@@ -117,6 +117,7 @@ public class Upgrader : MonoBehaviour
 
             SaveManager.Instance.currentOwnedMushroom++;
             MushroomEncyclopediaManager.Instance.UpdateRooms();
+            AudioManager.Instance.PlaySound("buy");
             if (SaveManager.Instance.currentOwnedMushroom >= mushroomUpgrades.Length)
             {
                 mushroomUpgradeText.GetComponentInParent<Button>().interactable = false;
@@ -136,7 +137,7 @@ public class Upgrader : MonoBehaviour
             InventoryManager.Instance.spend(backpackUpgrades[SaveManager.Instance.currentOwnedBackpack].cost);
 
             GenerationValuesManager.Instance.backpackSize = backpackUpgrades[SaveManager.Instance.currentOwnedBackpack].newSize;
-
+            AudioManager.Instance.PlaySound("buy");
             SaveManager.Instance.currentOwnedBackpack++;
             if (SaveManager.Instance.currentOwnedBackpack >= backpackUpgrades.Length)
             {
@@ -157,7 +158,7 @@ public class Upgrader : MonoBehaviour
             InventoryManager.Instance.spend(timeUpgrades[SaveManager.Instance.currentOwnedTime].cost);
 
             GenerationValuesManager.Instance.duration = timeUpgrades[SaveManager.Instance.currentOwnedTime].newSeconds;
-
+            AudioManager.Instance.PlaySound("buy");
             SaveManager.Instance.currentOwnedTime++;
             if (SaveManager.Instance.currentOwnedTime >= timeUpgrades.Length)
             {

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 33
   m_EditorClassIdentifier: 
   mushroomName: Sun mushroom
-  description: Bright yellow mushroom, it vaguely remember the color of the sun,
-    some legends says it even emits some warmth when you touch it
+  description: Bright yellow mushroom, it vaguely remember the color of the sun.
+    Some legends says it even emits some warmth when you touch it
   realLifeDescription: This is a test description for the real life inspiration of
     the mushroom is the Amanita frostiana, a bright yellow mushroom native to America.
     Nothing much notable is known about this specie

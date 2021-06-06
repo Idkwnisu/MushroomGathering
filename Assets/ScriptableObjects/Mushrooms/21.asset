@@ -16,8 +16,9 @@ MonoBehaviour:
   description: Beautiful edible mushroom, one of the most requested and appreciated
     in every part of the world
   realLifeDescription: The real life mushroom is the Pleurotus ostreatus, a very
-    common edible mushroom, very different from its game counterpart, but it somewhat
-    shares the cluster structure. Frequently used in various dishes around the world
+    common edible mushroom. It is very different from its game counterpart, but it
+    somewhat shares the cluster structure. It is frequently used in various dishes
+    around the world
   id: 21
   value: 380
   sprite: {fileID: -1722539767903399326, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

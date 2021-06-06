@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Fairy candle
   description: Peculiar mushroom with a very wax like appereance, people believed
-    it could be used as a candle if lit, in reality you would only cook it
+    it could be used as a candle if lit, but this turned out to be false
   realLifeDescription: The real world mushroom is the Hygrocybe conicoides, also
     called waxcap, a very moist and common mushroom
   id: 24

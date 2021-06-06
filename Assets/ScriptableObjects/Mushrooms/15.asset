@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushroomName: Witches lunch
   description: Black bubbly mushroom, many legends revolves around this specie, usually
-    revolving witches that uses this mushroom as a potion ingredient or a very renowned
+    revolving around witches that use this mushroom as a potion ingredient or as
     food
   realLifeDescription: The real life mushroom is the Exidia glandulosa, also called
-    black witches' butter, due to its shiny black color and its blister appearance.
-    Another theory about the name is the ancient belief that it had the power to
-    counteract witchcraft, if throw into the fire
+    black witches' butter, probably due to its shiny black color and its blister
+    appearance. Another theory about the name is the ancient belief that it had the
+    power to counteract witchcraft when thrown into the fire
   id: 15
   value: 340
   sprite: {fileID: -5559150632450785296, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

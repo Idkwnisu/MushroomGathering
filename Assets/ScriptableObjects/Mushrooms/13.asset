@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 13
   m_EditorClassIdentifier: 
   mushroomName: Power cap
-  description: Extremely hallucinogen mushroom, people who eat it reports various
-    vision like growing body parts or walking mushrooms
+  description: Extremely hallucinogen mushroom, people who eat it usually reports
+    various vision, like growing body parts or seeing little monsters
   realLifeDescription: The real life mushroom is the amanita muscaria, one of the
-    most famous species in the world. Classified as poisonous, but not extremely
-    dangerous, it contains many  psychoactive principles that may result in allucinations
+    most famous species in the world. Classified as poisonous, it is not extremely
+    dangerous, but it contains many psychoactive principles that may result in allucinations
   id: 13
   value: 280
   sprite: {fileID: 7010617245534139418, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

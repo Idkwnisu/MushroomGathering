@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 18
   m_EditorClassIdentifier: 
   mushroomName: Velvet mushroom
-  description: 'Blue mushroom with a very smooth texture, widely eaten and cultivated,
-    its wild specie is still pretty desirable '
-  realLifeDescription: The real life mushroom is the Lepista nuda, although a very
-    different mushroom, it shares its smooth cap with it
+  description: 'Blue mushroom with a very smooth texture, widely eaten and cultivated.
+    Its wild specie is still pretty desirable '
+  realLifeDescription: The real life mushroom is the Lepista nuda, a violet mushroom
+    very different from the game one, but it shares its smooth cap with it
   id: 18
   value: 440
   sprite: {fileID: 5182299067807867188, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

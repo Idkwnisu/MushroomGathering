@@ -18,8 +18,8 @@ MonoBehaviour:
     its value has diminished as its abundance increased
   realLifeDescription: The real life mushroom is the rhodotus palmatus, one of the
     most beautiful british mushroom, also called wrinkled peach. As its counterpart,
-    it was very rare, until an outbreak of a disease made its food source, rotten
-    elm, much more frequent
+    it was very rare, until an outbreak of a disease caused its food source, rotten
+    elm, to be much more frequent
   id: 14
   value: 320
   sprite: {fileID: -7039003182478323700, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

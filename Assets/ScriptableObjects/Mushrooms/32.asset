@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 32
   m_EditorClassIdentifier: 
   mushroomName: Cap of youth
-  description: Big brown mushroom rather common, but with incredibile medicinal properties,
-    frequently used in a lot of homemade medicaments
+  description: Big brown mushroom, it is rather common, but it has incredibile medicinal
+    properties. It is frequently used in a lot of homemade medicaments
   realLifeDescription: The real life mushroom is the ganoderma lucidum, a brown,
     lucid mushroom also called reishi. It has has a very long history of use for
     promoting health and longevity in China, Japan, and other Asian countries. It

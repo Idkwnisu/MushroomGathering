@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 25
   m_EditorClassIdentifier: 
   mushroomName: Spongecap
-  description: Weird looking mushroom, very similar to a sponge, very moist and capable
-    to absorb a limited amount of water
+  description: Weird looking mushroom, very similar to a sponge. It is very moist
+    and capable to absorb a limited amount of water
   realLifeDescription: The real life mushroom is the Morchella esculenta, a very
     common, edible mushroom, also called sponge morel because of its appearance.
-    In reality it doens't behave like a sponge
+    In reality it doens't really behave like a sponge
   id: 25
   value: 380
   sprite: {fileID: -577312649904740640, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
