@@ -15,9 +15,9 @@ MonoBehaviour:
   mushroomName: Little blu
   description: Sky blue mushroom, despite its appearance it's actually edible, its
     appreciation varies a lot according to personal taste, but it is widely appreciated
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom is the Lactarius indigo, a widely distributed, edible mushroom,
-    with a distinct blue color.
+  realLifeDescription: The real life mushroom is the Lactarius indigo, also called
+    blue milk mushroom, due to its pale blue color. It is one of the few edible mushrooms
+    with a blue color
   id: 34
   value: 900
   sprite: {fileID: -4056437433907239288, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

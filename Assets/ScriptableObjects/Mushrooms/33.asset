@@ -15,9 +15,9 @@ MonoBehaviour:
   mushroomName: Sun mushroom
   description: Bright yellow mushroom, it vaguely remember the color of the sun.
     Some legends says it even emits some warmth when you touch it
-  realLifeDescription: This is a test description for the real life inspiration of
-    the mushroom is the Amanita frostiana, a bright yellow mushroom native to America.
-    Nothing much notable is known about this specie
+  realLifeDescription: The real mushroom is the amanita frostiana, a bright yellow
+    mushroom found eastern U.S. and southeastern Canada. This mushroom's color varies
+    from yellow to red and pink
   id: 33
   value: 250
   sprite: {fileID: 2737844872717370115, guid: b646a2c26e1bb634793d733d7636817d, type: 3}
