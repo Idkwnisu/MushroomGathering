@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 35
   m_EditorClassIdentifier: 
   mushroomName: Twisted cap
-  description: Probably the strongest psychoactive mushroom there, used frequently
-    in various ancient religious rituals, it was believed that it gave prophetic
+  description: Probably the strongest psychoactive mushroom there. It was used frequently
+    in various ancient religious rituals, because it was believed that it gave prophetic
     visions
   realLifeDescription: The real life mushroom is the psilocybe cyanescens, also called
-    wavy cap and potent psylocybe. It is actually a very strong psychedelic mushroom.
-    It is not considered harmful to adults, but it is very bitter, so rarely consumed
+    wavy cap and potents psychedelic mushroom. It is not considered harmful to adults,
+    but it is very bitter, so rarely consumed
   id: 35
   value: 520
   sprite: {fileID: -5647778350772032766, guid: b646a2c26e1bb634793d733d7636817d, type: 3}

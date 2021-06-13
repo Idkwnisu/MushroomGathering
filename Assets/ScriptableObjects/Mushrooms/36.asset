@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 36
   m_EditorClassIdentifier: 
   mushroomName: Cortina violacea
-  description: 'Beautiful mushroom, its name means "violet veil". This specie is
-    inedible, but very beautiful to see, so '
+  description: 'BBeautiful mushroom, its name means "violet veil". This specie is
+    inedible, but very beautiful to see, so it is stil very valuedeautiful mushroom,
+    its name means "violet veil". This specie is inedible, but very beautiful to
+    see, so '
   realLifeDescription: The real life mushroom is the specie Cortinarius violaceus,
     pretty similar to the game counterpart, it has a distinctive dark violet colour.
     Its name means "the violet curtain-stool". It is sometimes considered edible,
